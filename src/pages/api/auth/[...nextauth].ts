@@ -9,8 +9,8 @@ export default NextAuth({
                 username: { label: 'Username', type: 'text', placeholder: 'username' },
                 password: { label: 'Password', type: 'password', placeholder: 'password' },
             },
-            authorize: async (credentials) => {
-                return new Promise((resolve, reject) => {
+            authorize: async (credentials) =>
+                new Promise((resolve, reject) => {
                     if (!credentials || !credentials.username || !credentials.password) {
                         reject(new Error('/signin?error=empty-credentials'));
                     } else if (
@@ -21,8 +21,7 @@ export default NextAuth({
                     } else {
                         reject(new Error('/signin?error=invalid-credentials'));
                     }
-                });
-            },
+                }),
         }),
     ],
     pages: {
