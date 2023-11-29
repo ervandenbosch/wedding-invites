@@ -15,7 +15,7 @@ const clientSideEmotionCache = createEmotionCache();
 
 interface MyAppProps extends AppProps {
     emotionCache?: EmotionCache;
-    session?: Session;
+    pageProps: { auth?: boolean; session?: Session };
 }
 
 const App = (props: MyAppProps) => {
