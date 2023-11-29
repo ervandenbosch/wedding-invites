@@ -1,3 +1,3 @@
 export type User = {
-    accepted?: boolean;
+    accepted: boolean;
 };
