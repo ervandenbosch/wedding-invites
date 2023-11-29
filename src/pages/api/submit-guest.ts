@@ -1,5 +1,5 @@
 import { getSession } from 'next-auth/react';
-import aws from 'aws-sdk';
+import { SES } from '@aws-sdk/client-ses';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 import { validateIncomingValues } from '@/lib/validateIncomingValues';
@@ -21,9 +21,11 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
     try {
         let errorSesCheck;
-        await new aws.SES({
-            accessKeyId: process.env.AWS_KEY,
-            secretAccessKey: process.env.AWS_SECRET,
+        await new SES({
+            credentials: {
+                accessKeyId: process.env.AWS_KEY,
+                secretAccessKey: process.env.AWS_SECRET,
+            },
             region: 'us-east-2',
         })
             .sendEmail({
