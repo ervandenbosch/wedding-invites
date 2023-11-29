@@ -1,5 +1,5 @@
 import { getSession } from 'next-auth/react';
-import { SES, SESClientConfig } from '@aws-sdk/client-ses';
+import { SES, Credentials, Provider } from '@aws-sdk/client-ses';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 import { validateIncomingValues } from '@/lib/validateIncomingValues';
@@ -22,15 +22,19 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     try {
         let errorSesCheck;
 
-        const sesConfig: SESClientConfig = {
+        const sesConfig: {
+            credentials: Credentials | Provider<Credentials>;
+            region: string;
+        } = {
             credentials: {
-                accessKeyId: process.env.AWS_KEY as string,
-                secretAccessKey: process.env.AWS_SECRET as string,
+                accessKeyId: process.env.AWS_KEY,
+                secretAccessKey: process.env.AWS_SECRET,
             },
             region: 'us-east-2',
         };
 
         const sesClient = new SES(sesConfig);
+
         await sesClient
             .sendEmail({
                 Source: `Wedding Invitation Response <${process.env.ADMIN_EMAIL}>`,
