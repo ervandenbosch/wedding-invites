@@ -31,7 +31,6 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
         };
 
         const sesClient = new SES(sesConfig);
-
         await sesClient
             .sendEmail({
                 Source: `Wedding Invitation Response <${process.env.ADMIN_EMAIL}>`,
