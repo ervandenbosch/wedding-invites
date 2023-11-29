@@ -36,8 +36,19 @@ const Home: NextPage = () => {
                                 width: '100vw',
                             }}
                         />
-                        <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h1">
+                        <Typography
+                            sx={{
+                                mt: 14,
+                                fontFamily: 'Comfortaa',
+                                letterSpacing: '1px',
+                                textAlign: 'center',
+                                position: 'absolute',
+                                color: 'white',
+                            }}
+                            variant="h1"
+                        >
                             Wedding <br />
+                            <br />
                             Monika & Ezra
                         </Typography>
                         <Button
