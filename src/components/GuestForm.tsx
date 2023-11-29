@@ -13,8 +13,7 @@ const GuestForm = () => {
     const [error, setError] = useState('');
     const [sending, setSending] = useState(false);
 
-    const formSubmitHandler = async (e) => {
-        e.preventDefault();
+    const formSubmitHandler = async () => {
         setSending(true);
         const validationError = validate(state);
         if (validationError) {
