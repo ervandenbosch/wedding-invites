@@ -21,13 +21,18 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
     try {
         let errorSesCheck;
-        await new SES({
+
+        const sesConfig = {
             credentials: {
                 accessKeyId: process.env.AWS_KEY,
                 secretAccessKey: process.env.AWS_SECRET,
             },
             region: 'us-east-2',
-        })
+        };
+
+        const sesClient = new SES(sesConfig);
+
+        await sesClient
             .sendEmail({
                 Source: `Wedding Invitation Response <${process.env.ADMIN_EMAIL}>`,
                 Destination: {
@@ -44,14 +49,15 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
                     },
                 },
             })
-            .promise()
             .catch((err) => {
                 console.log('err sending email', err.message);
                 errorSesCheck = err.message;
             });
+
         if (errorSesCheck) {
             return res.json({ success: 'false', errorSesCheck });
         }
+
         return res.json({ success: acknowledged ? 'true' : 'false' });
     } catch (err) {
         return console.log('ERROR sending email TO CLIENT: ', err);
