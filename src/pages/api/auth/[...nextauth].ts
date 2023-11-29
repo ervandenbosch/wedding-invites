@@ -9,20 +9,13 @@ export default NextAuth({
                 username: { label: 'Username', type: 'text', placeholder: 'username' },
                 password: { label: 'Password', type: 'password', placeholder: 'password' },
             },
-            authorize: async (credentials) => {
-                return new Promise((resolve, reject) => {
-                    if (!credentials || !credentials.username || !credentials.password) {
-                        reject('/signin?error=empty-credentials');
-                    } else if (
-                        credentials.username === process.env.NEXT_AUTH_USERNAME &&
-                        credentials.password === process.env.NEXT_AUTH_PASSWORD
-                    ) {
-                        resolve({ accepted: true });
-                    } else {
-                        reject('/signin?error=invalid-credentials');
-                    }
-                });
-            },
+            authorize: async (credentials) =>
+                !credentials || !credentials.username || !credentials.password
+                    ? Promise.reject(new Error('/signin?error=empty-credentials'))
+                    : credentials.username === process.env.NEXT_AUTH_USERNAME &&
+                      credentials.password === process.env.NEXT_AUTH_PASSWORD
+                    ? Promise.resolve({ accepted: true })
+                    : Promise.reject(new Error('/signin?error=invalid-credentials')),
         }),
     ],
     pages: {
