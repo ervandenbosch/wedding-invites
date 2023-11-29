@@ -17,7 +17,7 @@ export default NextAuth({
                         credentials.username === process.env.NEXT_AUTH_USERNAME &&
                         credentials.password === process.env.NEXT_AUTH_PASSWORD
                     ) {
-                        resolve({ id: 1, name: 'John Doe', email: 'john.doe@example.com' });
+                        resolve({ id: '1', name: 'John Doe', email: 'john.doe@example.com' });
                     } else {
                         reject(new Error('/signin?error=invalid-credentials'));
                     }
