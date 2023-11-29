@@ -24,19 +24,22 @@ const Home: NextPage = () => {
                 <Container>
                     <Box
                         sx={{
-                            height: '60%',
+                            height: '50%',
                             display: 'flex',
                             flexDirection: 'column',
                             alignItems: 'center',
                         }}
                     >
                         <img
-                            src="https://res.cloudinary.com/dtirfwiy8/image/upload/q_10/v1643969151/main_eiiw0l.webp"
-                            alt="Berlin bridge over water"
+                            src="https://2.bp.blogspot.com/-rXBto0Ejnhk/Um_Ki-EbAoI/AAAAAAAAINk/UaQ3IOFy3Bo/s1600/url.jpeg"
                             style={{
-                                width: '100%',
+                                width: '100vw',
                             }}
                         />
+                        <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h1">
+                            Wedding <br />
+                            Monika & Ezra
+                        </Typography>
                         <Button
                             id="user-form-link"
                             onClick={() => router.push('/form')}
