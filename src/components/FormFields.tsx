@@ -139,7 +139,7 @@ const AddressForm = () => {
                     onChange={handleChange}
                     id="diet"
                     name="diet"
-                    label="Any special dietry requirements?"
+                    label="Any special dietary requirements?"
                     fullWidth
                     variant="standard"
                 />

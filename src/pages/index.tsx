@@ -8,6 +8,17 @@ import spin from '@/styles/spin.module.css';
 import flex from '@/lib/flex';
 import content from '@/../content/index.json';
 
+const styles = (theme) => ({
+    root: {
+        // Match [xs, md) and [md + 1, ∞)
+        //       [xs, md) and [lg, ∞)
+        //       [0px, 900px) and [1200px, ∞)
+        [theme.breakpoints.down('md')]: {
+            variant: 'h2',
+        },
+    },
+});
+
 const Home: NextPage = () => {
     const router = useRouter();
     const { data: session } = useSession({
@@ -33,12 +44,12 @@ const Home: NextPage = () => {
                         <img
                             src="https://2.bp.blogspot.com/-rXBto0Ejnhk/Um_Ki-EbAoI/AAAAAAAAINk/UaQ3IOFy3Bo/s1600/url.jpeg"
                             style={{
-                                width: '100vw',
+                                height: '80vh',
                             }}
                         />
                         <Typography
                             sx={{
-                                mt: 14,
+                                mt: 12,
                                 fontFamily: 'Comfortaa',
                                 letterSpacing: '1px',
                                 textAlign: 'center',
@@ -50,12 +61,25 @@ const Home: NextPage = () => {
                             Wedding <br />
                             <br />
                             Monika & Ezra
+                            <Typography
+                                sx={{
+                                    mt: 10,
+                                    fontFamily: 'Comfortaa',
+                                    letterSpacing: '1px',
+                                    textAlign: 'center',
+                                    color: 'white',
+                                }}
+                                variant="h3"
+                            >
+                                27 July 2023
+                            </Typography>
                         </Typography>
+
                         <Button
                             id="user-form-link"
                             onClick={() => router.push('/form')}
                             variant="contained"
-                            sx={{ m: 3, color: 'white' }}
+                            sx={{ m: 5, color: 'white' }}
                         >
                             R.S.V.P
                         </Button>
@@ -67,7 +91,7 @@ const Home: NextPage = () => {
                             ...flex,
                             flexDirection: 'column',
                             justifyContent: 'flex-start',
-                            mt: 3,
+                            mt: 2,
                             mb: 3,
                         }}
                     >
@@ -86,49 +110,37 @@ const Home: NextPage = () => {
                             }}
                         >
                             <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
-                                Programme
-                            </Typography>
-                            <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '0.5px' }} variant="h5">
-                                Saturday
+                                Hey you!
                             </Typography>
                             <Box sx={{ m: 3, textAlign: 'center' }}>
-                                {content.saturday.map((item) => (
-                                    <p key={item}>{item}</p>
-                                ))}
+                                Thank you for being our close friend and/or relative.
                             </Box>
-                            <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '0.5px' }} variant="h5">
-                                Sunday
-                            </Typography>
-                            <Box sx={{ m: 3, textAlign: 'center' }}>
-                                <p>We’ll meet again for fun in the sun - details TBC.</p>
-                            </Box>
+                            <Box sx={{ m: 3, textAlign: 'center' }}></Box>
                             <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
                                 Venue
                             </Typography>
                             <Box sx={{ m: 3, textAlign: 'center' }}>
-                                <p>The venue is TBC, but it will be somewhere family-friendly in Berlin.</p>
+                                <p>Ferme de Pignon.</p>
                             </Box>
+                            <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
+                                Programme
+                            </Typography>
+
+                            <Box sx={{ m: 3, textAlign: 'center' }}></Box>
+
                             <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
-                                Hotels
+                                Accomodation
                             </Typography>
                             <Box sx={{ m: 3, textAlign: 'center' }}>
-                                {content.hotels.map((item) => (
-                                    <p key={item}>{parse(item)}</p>
-                                ))}
+                                Do not worry - as our venue can accomodate all of you!
                             </Box>
                             <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
                                 Gifts
                             </Typography>
-                            <Box sx={{ m: 3, textAlign: 'center' }}>
-                                <p>If you are travelling from abroad, your gift to us is your presence.</p>
+                            <Box sx={{ mt: 3, mb: 6, textAlign: 'center' }}>
                                 <p>
-                                    Those who would like to help us furnish a new home in Berlin, we welcome
-                                    contributions{' '}
-                                    <a
-                                        rel="noreferrer noopener"
-                                        target="_blank"
-                                        href="http://www.leetchi.com/c/our-wedding-cash-fund"
-                                    >
+                                    We would appreciate a contribution for the accomodation which can be done{' '}
+                                    <a rel="noreferrer noopener" target="_blank" href="">
                                         here
                                     </a>
                                     .

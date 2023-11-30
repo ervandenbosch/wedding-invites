@@ -67,4 +67,24 @@ const theme = createTheme({
     },
 });
 
+theme.typography.h1 = {
+    fontSize: '4.4rem',
+    '@media (min-width:800px)': {
+        fontSize: '4.4rem',
+    },
+    [theme.breakpoints.down('md')]: {
+        fontSize: '3.4rem',
+    },
+};
+
+theme.typography.h3 = {
+    fontSize: '3.4rem',
+    '@media (min-width:800px)': {
+        fontSize: '3.4rem',
+    },
+    [theme.breakpoints.down('md')]: {
+        fontSize: '2.4rem',
+    },
+};
+
 export default theme;

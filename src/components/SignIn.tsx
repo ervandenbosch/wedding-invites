@@ -36,8 +36,7 @@ export default function SignIn() {
     return (
         <>
             <img
-                src="https://res.cloudinary.com/dtirfwiy8/image/upload/q_10/v1643969151/bridge_otlmkp.webp"
-                alt="Berlin bridge over water"
+                src="https://2.bp.blogspot.com/-rXBto0Ejnhk/Um_Ki-EbAoI/AAAAAAAAINk/UaQ3IOFy3Bo/s1600/url.jpeg"
                 style={{
                     position: 'absolute',
                     left: 0,
