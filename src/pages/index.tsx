@@ -104,7 +104,7 @@ const Home: NextPage = () => {
                             <Box sx={{ m: 3, textAlign: 'center' }}>
                                 Thank you for being our close friend and/or relative.
                             </Box>
-                            <Box sx={{ m: 3, textAlign: 'center' }}></Box>
+
                             <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
                                 Venue
                             </Typography>
@@ -114,8 +114,6 @@ const Home: NextPage = () => {
                             <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
                                 Programme
                             </Typography>
-
-                            <Box sx={{ m: 3, textAlign: 'center' }}></Box>
 
                             <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
                                 Accomodation
