@@ -8,17 +8,6 @@ import spin from '@/styles/spin.module.css';
 import flex from '@/lib/flex';
 import content from '@/../content/index.json';
 
-const styles = (theme) => ({
-    root: {
-        // Match [xs, md) and [md + 1, ∞)
-        //       [xs, md) and [lg, ∞)
-        //       [0px, 900px) and [1200px, ∞)
-        [theme.breakpoints.down('md')]: {
-            variant: 'h2',
-        },
-    },
-});
-
 const Home: NextPage = () => {
     const router = useRouter();
     const { data: session } = useSession({
@@ -140,7 +129,7 @@ const Home: NextPage = () => {
                             <Box sx={{ mt: 3, mb: 6, textAlign: 'center' }}>
                                 <p>
                                     We would appreciate a contribution for the accomodation which can be done{' '}
-                                    <a rel="noreferrer noopener" target="_blank" href="">
+                                    <a rel="noreferrer noopener" target="_blank" href="https://vercel.com">
                                         here
                                     </a>
                                     .
