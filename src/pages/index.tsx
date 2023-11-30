@@ -1,12 +1,11 @@
 import { useRouter } from 'next/router';
 import { useSession } from 'next-auth/react';
 import { Container, Button, Typography, Paper, Box } from '@mui/material';
-import parse from 'html-react-parser';
+
 import type { NextPage } from 'next';
 
 import spin from '@/styles/spin.module.css';
 import flex from '@/lib/flex';
-import content from '@/../content/index.json';
 
 const Home: NextPage = () => {
     const router = useRouter();
