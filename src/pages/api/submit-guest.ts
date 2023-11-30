@@ -1,5 +1,5 @@
 import { getSession } from 'next-auth/react';
-import { SES, Credentials, Provider } from '@aws-sdk/client-ses';
+import { SES } from '@aws-sdk/client-ses';
 import type { NextApiRequest, NextApiResponse } from 'next';
 
 import { validateIncomingValues } from '@/lib/validateIncomingValues';
@@ -22,14 +22,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     try {
         let errorSesCheck;
 
-        const sesConfig: {
-            credentials: Credentials | Provider<Credentials>;
-            region: string;
-        } = {
-            credentials: {
-                accessKeyId: process.env.AWS_KEY,
-                secretAccessKey: process.env.AWS_SECRET,
-            },
+        const sesConfig = {
             region: 'us-east-2',
         };
 
