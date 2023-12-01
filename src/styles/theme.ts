@@ -73,7 +73,7 @@ theme.typography.h1 = {
         fontSize: '4.4rem',
     },
     [theme.breakpoints.down('md')]: {
-        fontSize: '3.4rem',
+        fontSize: '2.8rem',
         paddingLeft: '10px',
         paddingRight: '10px',
         marginTop: '38px',
