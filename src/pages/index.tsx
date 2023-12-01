@@ -97,40 +97,53 @@ const Home: NextPage = () => {
                                 backgroundColor: '#f8f8ff',
                             }}
                         >
-                            <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
-                                Hey you!
-                            </Typography>
-                            <Box sx={{ m: 3, textAlign: 'center' }}>
-                                Thank you for being our close friend and/or relative.
-                            </Box>
+                            <Box
+                                sx={{
+                                    flexGrow: 1,
+                                    width: '85%',
+                                    display: 'flex',
+                                    flexDirection: 'column',
+                                    justifyContent: 'flex-start',
+                                    alignItems: 'center',
 
-                            <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
-                                Venue
-                            </Typography>
-                            <Box sx={{ m: 3, textAlign: 'center' }}>
-                                <p>Ferme de Pignon.</p>
-                            </Box>
-                            <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
-                                Programme
-                            </Typography>
+                                    backgroundColor: '#f8f8ff',
+                                }}
+                            >
+                                <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
+                                    Hey you!
+                                </Typography>
+                                <Box sx={{ m: 3, textAlign: 'center' }}>
+                                    Thank you for being our close friend and/or relative.
+                                </Box>
 
-                            <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
-                                Accomodation
-                            </Typography>
-                            <Box sx={{ m: 3, textAlign: 'center' }}>
-                                Do not worry - as our venue can accomodate all of you!
-                            </Box>
-                            <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
-                                Gifts
-                            </Typography>
-                            <Box sx={{ mt: 3, mb: 6, textAlign: 'center' }}>
-                                <p>
-                                    We would appreciate a contribution for the accomodation which can be done{' '}
-                                    <a rel="noreferrer noopener" target="_blank" href="https://vercel.com">
-                                        here
-                                    </a>
-                                    .
-                                </p>
+                                <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
+                                    Venue
+                                </Typography>
+                                <Box sx={{ m: 3, textAlign: 'center' }}>
+                                    <p>Ferme de Pignon.</p>
+                                </Box>
+                                <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
+                                    Programme
+                                </Typography>
+
+                                <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
+                                    Accomodation
+                                </Typography>
+                                <Box sx={{ m: 3, textAlign: 'center' }}>
+                                    Do not worry - as our venue can accomodate all of you!
+                                </Box>
+                                <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
+                                    Gifts
+                                </Typography>
+                                <Box sx={{ mt: 3, mb: 6, textAlign: 'center' }}>
+                                    <p>
+                                        We would appreciate a contribution for the accomodation which can be done{' '}
+                                        <a rel="noreferrer noopener" target="_blank" href="https://vercel.com">
+                                            here
+                                        </a>
+                                        .
+                                    </p>
+                                </Box>
                             </Box>
                         </Paper>
                     </Container>
