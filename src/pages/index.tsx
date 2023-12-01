@@ -51,7 +51,7 @@ const Home: NextPage = () => {
                             Monika & Ezra
                             <Typography
                                 sx={{
-                                    mt: 10,
+                                    mt: 6,
                                     fontFamily: 'Comfortaa',
                                     letterSpacing: '1px',
                                     textAlign: 'center',
@@ -67,7 +67,7 @@ const Home: NextPage = () => {
                             id="user-form-link"
                             onClick={() => router.push('/form')}
                             variant="contained"
-                            sx={{ m: 6, color: 'white' }}
+                            sx={{ p: 3, m: 6, color: 'white' }}
                         >
                             R.S.V.P
                         </Button>
@@ -100,15 +100,15 @@ const Home: NextPage = () => {
                             <Box
                                 sx={{
                                     flexGrow: 1,
-                                    width: '85%',
+                                    width: '92%',
                                     display: 'flex',
                                     flexDirection: 'column',
                                     justifyContent: 'flex-start',
                                     alignItems: 'center',
 
                                     backgroundColor: '#f8f8ff',
-                                    pl: 3,
-                                    pr: 3,
+                                    pl: 2,
+                                    pr: 2,
                                 }}
                             >
                                 <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
