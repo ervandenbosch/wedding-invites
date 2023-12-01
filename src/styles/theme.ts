@@ -86,8 +86,8 @@ theme.typography.h3 = {
     },
     [theme.breakpoints.down('md')]: {
         fontSize: '2.0rem',
-        paddingLeft: '10px',
-        paddingRight: '10px',
+        paddingLeft: '5px',
+        paddingRight: '5px',
     },
 };
 
