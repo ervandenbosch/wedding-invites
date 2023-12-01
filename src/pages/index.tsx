@@ -67,7 +67,7 @@ const Home: NextPage = () => {
                             id="user-form-link"
                             onClick={() => router.push('/form')}
                             variant="contained"
-                            sx={{ m: 5, color: 'white' }}
+                            sx={{ m: 6, color: 'white' }}
                         >
                             R.S.V.P
                         </Button>
