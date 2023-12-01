@@ -85,7 +85,9 @@ theme.typography.h3 = {
         fontSize: '3.4rem',
     },
     [theme.breakpoints.down('md')]: {
-        fontSize: '2.4rem',
+        fontSize: '2.0rem',
+        paddingLeft: '10px',
+        paddingRight: '10px',
     },
 };
 

@@ -107,6 +107,8 @@ const Home: NextPage = () => {
                                     alignItems: 'center',
 
                                     backgroundColor: '#f8f8ff',
+                                    pl: 3,
+                                    pr: 3,
                                 }}
                             >
                                 <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
@@ -126,7 +128,7 @@ const Home: NextPage = () => {
                                     Programme
                                 </Typography>
 
-                                <Typography sx={{ fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
+                                <Typography sx={{ fontFamily: 'Comfortaa' }} variant="h3">
                                     Accomodation
                                 </Typography>
                                 <Box sx={{ m: 3, textAlign: 'center' }}>
