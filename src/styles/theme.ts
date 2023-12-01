@@ -76,6 +76,7 @@ theme.typography.h1 = {
         fontSize: '3.4rem',
         paddingLeft: '10px',
         paddingRight: '10px',
+        marginTop: '24px',
     },
 };
 

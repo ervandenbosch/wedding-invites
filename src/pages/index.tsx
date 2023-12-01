@@ -46,9 +46,19 @@ const Home: NextPage = () => {
                             }}
                             variant="h1"
                         >
-                            Wedding <br />
-                            <br />
-                            Monika & Ezra
+                            Wedding
+                            <Typography
+                                sx={{
+                                    fontFamily: 'Comfortaa',
+                                    letterSpacing: '1px',
+                                    textAlign: 'center',
+
+                                    color: 'white',
+                                }}
+                                variant="h1"
+                            >
+                                Monika & Ezra
+                            </Typography>
                             <Typography
                                 sx={{
                                     mt: 6,
