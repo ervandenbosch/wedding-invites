@@ -112,7 +112,7 @@ const Home: NextPage = () => {
                                 }}
                             >
                                 <Typography sx={{ m: 3, fontFamily: 'Comfortaa', letterSpacing: '1px' }} variant="h3">
-                                    Hey you!
+                                    Hey, you!
                                 </Typography>
                                 <Box sx={{ m: 3, textAlign: 'center' }}>
                                     Thank you for being our close friend and/or relative.
