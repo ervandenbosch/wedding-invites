@@ -7,6 +7,7 @@ import spin from '@/styles/spin.module.css';
 
 const Form: NextPage = () => {
     const router = useRouter();
+
     const { data: session } = useSession({
         required: true,
         onUnauthenticated() {

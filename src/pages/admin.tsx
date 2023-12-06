@@ -45,6 +45,8 @@ const Admin: NextPage = () => {
         },
     });
 
+    console.log(session);
+
     const guestList = useMemo(
         () =>
             guests

@@ -9,6 +9,8 @@ import { checkResponse } from '@/lib/ses';
 export default async (req: NextApiRequest, res: NextApiResponse) => {
     const session = await getSession({ req });
 
+    console.log('Session:', session);
+
     if (!session) return res.status(401);
 
     const error = validateIncomingValues(req.body);

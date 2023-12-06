@@ -16,6 +16,7 @@ const GuestForm = () => {
     const formSubmitHandler = async () => {
         setSending(true);
         const validationError = validate(state);
+        console.log(state);
         if (validationError) {
             setError(validationError);
         } else {
@@ -57,7 +58,7 @@ const GuestForm = () => {
                 </Typography>
                 <>
                     <FormFields />
-                    <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'space-between', pt: 2 }}>
                         <Button
                             onClick={() => router.push('/')}
                             variant="contained"

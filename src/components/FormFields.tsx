@@ -73,33 +73,6 @@ const AddressForm = () => {
                 </FormControl>
             </Grid>
             <Grid item xs={12} sm={12}>
-                <FormControl sx={{ transform: 'translateY(15px)' }}>
-                    <FormLabel required id="partner">
-                        Are you bringing a partner or plus one?
-                    </FormLabel>
-                    <RadioGroup
-                        onChange={handleChange}
-                        aria-labelledby="rsvp-radio-buttons-group-label"
-                        defaultValue={false}
-                        name="partner"
-                        sx={{ flexDirection: 'row', verticalAlign: 'bottom' }}
-                    >
-                        <FormControlLabel value control={<Radio />} label="Yes" />
-                        <FormControlLabel value={false} control={<Radio />} label="No" />
-                    </RadioGroup>
-                </FormControl>
-            </Grid>
-            <Grid item xs={12} sm={12}>
-                <TextField
-                    onChange={handleChange}
-                    id="partnerName"
-                    name="partnerName"
-                    label="If so, what is their name?"
-                    fullWidth
-                    variant="standard"
-                />
-            </Grid>
-            <Grid item xs={12} sm={12}>
                 <FormControl sx={{ transform: 'translateY(5px)' }}>
                     <FormLabel required id="children">
                         Are you bringing children?
@@ -118,7 +91,7 @@ const AddressForm = () => {
             </Grid>
             <Grid item xs={12} sm={12}>
                 <FormControl fullWidth>
-                    <FormLabel id="number-of-children">If so how many?</FormLabel>
+                    <FormLabel id="number-of-children">If so how many? (use the slider)</FormLabel>
                     <Slider
                         onChange={handleSliderChange}
                         onMouseUp={handleSliderSubmit}
@@ -128,7 +101,7 @@ const AddressForm = () => {
                         id="numberOfChildren"
                         marks
                         min={0}
-                        max={10}
+                        max={6}
                         valueLabelDisplay="auto"
                         sx={{ width: '98%', ml: '1%' }}
                     />
@@ -140,6 +113,16 @@ const AddressForm = () => {
                     id="diet"
                     name="diet"
                     label="Any special dietary requirements?"
+                    fullWidth
+                    variant="standard"
+                />
+            </Grid>
+            <Grid item xs={12} sm={12}>
+                <TextField
+                    onChange={handleChange}
+                    id="music"
+                    name="music"
+                    label="Name your 3 favorite songs!"
                     fullWidth
                     variant="standard"
                 />
