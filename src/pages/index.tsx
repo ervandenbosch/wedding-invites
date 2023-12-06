@@ -119,7 +119,7 @@ const Home: NextPage = () => {
                                 Do not forgot to
                                 <button
                                     id="user-form-link"
-                                    type="text"
+                                    type="button"
                                     onClick={() => router.push('/rsvp')}
                                     style={{ border: 'none' }}
                                 >
