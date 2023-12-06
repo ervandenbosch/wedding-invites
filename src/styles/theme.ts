@@ -68,9 +68,9 @@ const theme = createTheme({
 });
 
 theme.typography.h1 = {
-    fontSize: '4.4rem',
+    fontSize: '4.0rem',
     '@media (min-width:800px)': {
-        fontSize: '4.4rem',
+        fontSize: '4.0rem',
     },
     [theme.breakpoints.down('md')]: {
         fontSize: '2.8rem',

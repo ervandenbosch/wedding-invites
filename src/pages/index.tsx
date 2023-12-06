@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                             position: 'absolute',
                             color: 'white',
                         }}
-                        variant="h1"
+                        variant="h3"
                     >
                         Wedding
                         <Typography
