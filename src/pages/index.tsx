@@ -117,13 +117,9 @@ const Home: NextPage = () => {
                                 information about our wedding, for which you are invited!
                                 <br /> <br />
                                 Do not forgot to
-                                <a
-                                    id="user-form-link"
-                                    onClick={() => router.push('/rsvp')}
-                                    style={{ marginLeft: '12px' }}
-                                >
-                                    RSVP
-                                </a>{' '}
+                                <Button id="user-form-link" onClick={() => router.push('/rsvp')} sx={{ m: 0 }}>
+                                    <a>RSVP</a>
+                                </Button>{' '}
                                 ! :)
                             </Box>
 
