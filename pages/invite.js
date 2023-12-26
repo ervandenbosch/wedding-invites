@@ -17,6 +17,7 @@ export default function Home() {
                 id="top"
                 style={{
                     backgroundImage: 'url("/images/cover.jpg")',
+                    backgroundPosition: 'center',
                 }}
             >
                 <div className="ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
