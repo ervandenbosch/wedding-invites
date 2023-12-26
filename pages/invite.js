@@ -96,94 +96,77 @@ export default function Home() {
                                     />
                                 </div>
                                 <div
-                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-2 
-                  group-focus:max-h-full  group-focus:px-6 group-focus:opacity-100
+                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:mx-6 
+                  group-focus:my-2  group-focus:max-h-full group-focus:opacity-100
                   group-focus:duration-1000"
                                 >
                                     The prices in the area are ~100 EUR per room per night. <br />
                                     <br />
                                     About 6 mins drive away:
-                                    <ul>
-                                        <li>
+                                    <ul className="w-full">
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/34RfcNw4a7UWAFzdA"
+                                            target="_blank"
+                                        >
                                             {' '}
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/34RfcNw4a7UWAFzdA"
-                                                target="_blank"
-                                            >
-                                                Option 1
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/JQ1JqNN9mspjMYbm6"
-                                                target="_blank"
-                                            >
-                                                Option 2
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/UEtLnDDQQN2JjuAW9"
-                                                target="_blank"
-                                            >
-                                                Option 3
-                                            </a>
-                                        </li>
-                                        <li>
+                                            <li> Option 1</li>
+                                        </a>
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/JQ1JqNN9mspjMYbm6"
+                                            target="_blank"
+                                        >
+                                            <li>Option 2</li>
+                                        </a>
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/UEtLnDDQQN2JjuAW9"
+                                            target="_blank"
+                                        >
+                                            <li>Option 3</li>
+                                        </a>{' '}
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/4PBoBBUQ1ZSjD4Eb8"
+                                            target="_blank"
+                                        >
                                             {' '}
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/4PBoBBUQ1ZSjD4Eb8"
-                                                target="_blank"
-                                            >
-                                                Option 4
-                                            </a>
-                                        </li>
-                                        <li>
+                                            <li>Option 4</li>
+                                        </a>{' '}
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/Anwu2RV5iUxB3iEg7"
+                                            target="_blank"
+                                        >
                                             {' '}
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/Anwu2RV5iUxB3iEg7"
-                                                target="_blank"
-                                            >
-                                                Option 5
-                                            </a>
-                                        </li>
+                                            <li>Option 5 </li>
+                                        </a>
                                     </ul>
                                     <br />
                                     About 15 mins drive away:
                                     <ul>
-                                        <li>
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/htunon5PDaSb1P1DA"
-                                                target="_blank"
-                                            >
-                                                Option 1
-                                            </a>
-                                        </li>
-                                        <li>
-                                            {' '}
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/KyGTYtsFqBPMWBk2A"
-                                                target="_blank"
-                                            >
-                                                Option 2
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/sjTYvtNcfnQ672Lp9"
-                                                target="_blank"
-                                            >
-                                                Option 3
-                                            </a>
-                                        </li>
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/htunon5PDaSb1P1DA"
+                                            target="_blank"
+                                        >
+                                            <li>Option 1</li>
+                                        </a>{' '}
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/KyGTYtsFqBPMWBk2A"
+                                            target="_blank"
+                                        >
+                                            <li>Option 2 </li>
+                                        </a>
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/sjTYvtNcfnQ672Lp9"
+                                            target="_blank"
+                                        >
+                                            <li>Option 3 </li>
+                                        </a>
                                     </ul>
                                 </div>
                             </div>

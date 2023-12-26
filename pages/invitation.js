@@ -101,91 +101,78 @@ export default function Invitation() {
                                     <br />
                                     About 6 mins drive away:
                                     <ul>
-                                        <li>
+                                        {' '}
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/34RfcNw4a7UWAFzdA"
+                                            target="_blank"
+                                        >
+                                            <li>Option 1 </li>
+                                        </a>
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/JQ1JqNN9mspjMYbm6"
+                                            target="_blank"
+                                        >
                                             {' '}
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/34RfcNw4a7UWAFzdA"
-                                                target="_blank"
-                                            >
-                                                Option 1
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/JQ1JqNN9mspjMYbm6"
-                                                target="_blank"
-                                            >
-                                                Option 2
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/UEtLnDDQQN2JjuAW9"
-                                                target="_blank"
-                                            >
-                                                Option 3
-                                            </a>
-                                        </li>
-                                        <li>
+                                            <li>Option 2 </li>
+                                        </a>
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/UEtLnDDQQN2JjuAW9"
+                                            target="_blank"
+                                        >
                                             {' '}
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/4PBoBBUQ1ZSjD4Eb8"
-                                                target="_blank"
-                                            >
-                                                Option 4
-                                            </a>
-                                        </li>
-                                        <li>
+                                            <li>Option 3 </li>
+                                        </a>{' '}
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/4PBoBBUQ1ZSjD4Eb8"
+                                            target="_blank"
+                                        >
                                             {' '}
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/Anwu2RV5iUxB3iEg7"
-                                                target="_blank"
-                                            >
-                                                Option 5
-                                            </a>
-                                        </li>
+                                            <li>Option 4</li>
+                                        </a>{' '}
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/Anwu2RV5iUxB3iEg7"
+                                            target="_blank"
+                                        >
+                                            {' '}
+                                            <li>Option 5 </li>
+                                        </a>
                                     </ul>
                                     <br />
                                     About 15 mins drive away:
                                     <ul>
-                                        <li>
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/htunon5PDaSb1P1DA"
-                                                target="_blank"
-                                            >
-                                                Option 1
-                                            </a>
-                                        </li>
-                                        <li>
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/htunon5PDaSb1P1DA"
+                                            target="_blank"
+                                        >
                                             {' '}
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/KyGTYtsFqBPMWBk2A"
-                                                target="_blank"
-                                            >
-                                                Option 2
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a
-                                                className="underline"
-                                                href="https://maps.app.goo.gl/sjTYvtNcfnQ672Lp9"
-                                                target="_blank"
-                                            >
-                                                Option 3
-                                            </a>
-                                        </li>
+                                            <li>Option 1 </li>
+                                        </a>{' '}
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/KyGTYtsFqBPMWBk2A"
+                                            target="_blank"
+                                        >
+                                            {' '}
+                                            <li>Option 2 </li>
+                                        </a>
+                                        <a
+                                            className="underline"
+                                            href="https://maps.app.goo.gl/sjTYvtNcfnQ672Lp9"
+                                            target="_blank"
+                                        >
+                                            {' '}
+                                            <li>Option 3 </li>
+                                        </a>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <button></button>
                     </div>
 
                     <h2
