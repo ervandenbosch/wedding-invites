@@ -78,7 +78,7 @@ export default function Invitation() {
                         lightly, and we sincerely appreciate your understanding and flexibility in this matter. We look
                         forward to sharing this beautiful day with you, and we are grateful for your understanding as we
                         navigate these logistical challenges.
-                        <div class="m-5 space-y-2 sm:mx-2">
+                        <div class="m-5 mt-8 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
                                 tabIndex="1"
@@ -93,7 +93,7 @@ export default function Invitation() {
                                     />
                                 </div>
                                 <div
-                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-2 
                   group-focus:max-h-full  group-focus:px-6 group-focus:opacity-100
                   group-focus:duration-1000"
                                 >

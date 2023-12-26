@@ -81,7 +81,7 @@ export default function Home() {
                         accommodation in the surrounding area, or perhaps spend a cozy night under the stars in your
                         tent on the site, let us know through the RSVP form, so that we can potentially free up your
                         spot to other guests, who were not offered an on site accommodation.
-                        <div class="m-5 space-y-2 sm:mx-2">
+                        <div class="m-5 mt-8 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
                                 tabIndex="1"
@@ -96,7 +96,7 @@ export default function Home() {
                                     />
                                 </div>
                                 <div
-                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-2 
                   group-focus:max-h-full  group-focus:px-6 group-focus:opacity-100
                   group-focus:duration-1000"
                                 >
