@@ -66,7 +66,7 @@ export default function Invitation() {
                     >
                         ACCOMODATION
                     </h2>
-                    <div className="mx-8 p-4 text-center">
+                    <div className="mx-6 p-4 text-center">
                         <h3 className="pb-3 font-bold">Food</h3>
                         Food is included throughout the day of the wedding, and also a shared breakfast the next day.
                         <h3 className="pb-4 pt-7 font-bold">Accommodation </h3>
