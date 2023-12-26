@@ -23,7 +23,7 @@ export default function Home() {
                 <div className="mb-14 ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
                     <div className="font-notoreg2 text-[80px] italic leading-none md:text-[60px]">our</div>
-                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[220px] leading-none lg:text-[120px] md:text-[80px]">
+                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[220px] leading-none tracking-tight lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>

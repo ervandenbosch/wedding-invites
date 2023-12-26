@@ -23,7 +23,7 @@ export default function Invitation() {
                 <div className="mb-14 ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
                     <div className="font-notoreg2 text-[80px] italic leading-none md:text-[60px]">our</div>
-                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[220px] leading-none lg:text-[120px] md:text-[80px]">
+                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[220px] leading-none tracking-tight lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>
@@ -302,12 +302,12 @@ export default function Invitation() {
                         Dresscode
                     </h2>
                     <div className="mx-8 p-6 text-center">
-                        <b>Attire</b>
+                        <b className=" font-notoreg text-2xl">Attire</b>
                         <br />
                         Semi-formal attire
                         <br />
                         <br />
-                        <b>Dress code colour</b>
+                        <b className="font-notoreg text-2xl">Dress code colour</b>
                         <br /> Our favourite colour is blue, therefore, we’d love to incorporate it into our wedding
                         dress code to add little extra touch to our celebration. We invite you to join us in a vibrant
                         display of colours by incorporating shades of the below displayed colours into your attire.
