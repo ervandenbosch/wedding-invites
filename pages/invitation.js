@@ -12,26 +12,21 @@ export default function Invitation() {
 
     return (
         <>
-            <div
-                className="bg local mt-[48px] flex h-[88vh] w-full flex-row bg-cover bg-no-repeat sm:flex-col"
-                id="top"
-                style={{
-                    backgroundImage: 'url("/images/cover.png")',
-                }}
-            >
-                <div className=" ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
+            <div className="mt-[48px] flex h-[88vh] w-full flex-row sm:flex-col" id="top">
+                <img src="/images/cover.png" className="absolute h-[86vh] w-full object-cover" />
+                <div className="relative ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
                     <div className="font-notoreg text-[80px] italic md:text-[60px]">our</div>
-                    <div className="mb-8 whitespace-nowrap font-notoreg text-[180px] lg:text-[120px] md:text-[80px]">
+                    <div className="mb-12 whitespace-nowrap font-notoreg text-[180px] lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>
-                <div className="mr-18 mb-24 w-full self-end text-center font-serif text-4xl tracking-wide text-white md:self-center sm:mb-14 sm:text-2xl">
+                <div className="mr-18 relative mb-32 w-full self-end text-center font-serif text-4xl tracking-wide text-white md:self-center sm:mb-14 sm:text-2xl">
                     Saturday,
                     <div>27 July 2024,</div>
                     <div>France</div>
-                    <div className="mt-8 pr-4 text-white">
-                        <Link href="https://54deicxmihb.typeform.com/to/e8zkTPkQ">
+                    <div className="mt-12 pr-4 text-white">
+                        <Link href="https://54deicxmihb.typeform.com/to/ULCDxC4s">
                             <button className=" py-0.2 ml-8  rounded-xl border-2 border-gray-400 bg-white px-12 text-gray-800 md:px-6">
                                 RSVP
                             </button>
@@ -39,7 +34,6 @@ export default function Invitation() {
                     </div>
                 </div>
             </div>
-
             <div className="flex flex-row bg-white pb-10  md:flex-wrap">
                 <div className="flex w-full flex-col border-black bg-white pb-10">
                     <h2 className="p-4 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="wedding">
@@ -80,7 +74,7 @@ export default function Invitation() {
                         <div class="m-5 space-y-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                tabindex="2"
+                                tabIndex="1"
                             >
                                 <div class="mt-2 flex cursor-pointer items-center justify-between">
                                     <span>
@@ -163,7 +157,7 @@ export default function Invitation() {
                         <div class="m-5 space-y-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                tabindex="2"
+                                tabIndex="1"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
                                     <span>
@@ -193,7 +187,7 @@ export default function Invitation() {
                         <div class="m-5 space-y-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                tabindex="2"
+                                tabIndex="2"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
                                     <span>
