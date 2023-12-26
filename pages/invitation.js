@@ -22,8 +22,8 @@ export default function Invitation() {
             >
                 <div className=" ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
-                    <div className="font-notoreg text-[80px] italic md:text-[60px]">our</div>
-                    <div className="mb-8 whitespace-nowrap font-notoreg text-[180px] lg:text-[120px] md:text-[80px]">
+                    <div className="font-notoreg2 text-[80px] italic md:text-[60px]">our</div>
+                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[180px] lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>
@@ -43,8 +43,8 @@ export default function Invitation() {
 
             <div className="flex flex-row bg-white pb-10  md:flex-wrap">
                 <div className="flex w-full flex-col border-black bg-white pb-10">
-                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="wedding">
-                        WEDDING
+                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="wedding">
+                        Wedding info
                     </h2>
                     <h3 className="text-center font-notoreg text-2xl font-bold text-black">Intro</h3>
                     <div className="mx-8 p-6 text-center">
@@ -64,7 +64,7 @@ export default function Invitation() {
                         className="p-5 pt-[64px] text-center font-notoreg text-4xl font-bold text-black"
                         id="accomodation"
                     >
-                        ACCOMODATION
+                        Accomodation
                     </h2>
                     <div className="mx-6 p-4 text-center">
                         <h3 className="pb-3 font-bold">Food</h3>
@@ -162,7 +162,7 @@ export default function Invitation() {
                     </div>
 
                     <h2 className="pb-2 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="route">
-                        ROUTE
+                        Route
                     </h2>
 
                     <div className="mx-6 p-6 text-left sm:mx-2">
@@ -274,7 +274,7 @@ export default function Invitation() {
                         </div>
                     </div>
                     <h2 className="p-4 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="dresscode">
-                        DRESSCODE
+                        Dresscode
                     </h2>
                     <div className="mx-8 p-6 text-center">
                         Our favourite colour is blue, so we’d love to incorporate it into our wedding dress code to add
@@ -293,7 +293,7 @@ export default function Invitation() {
                         ></img>
                     </div>
                     <h2 className="p-2 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="gifts">
-                        GIFTS
+                        Gifts
                     </h2>
                     <div className="mx-8 p-6 text-center">
                         Your presence at our wedding is the greatest gift of all, and we feel truly blessed to have you

@@ -3,23 +3,28 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "aileron";
-  src: url("../public/aileron.bold.otf");
+    font-family: 'aileron';
+    src: url('../public/aileron.bold.otf');
 }
 
 @font-face {
-  font-family: "notoreg";
-  src: url("../public/NotoSerifDisplay_ExtraCondensed-Regular.ttf");
+    font-family: 'notoreg2';
+    src: url('../public/NotoSerifDisplay_ExtraCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'notoreg';
+    src: url('../public/NotoSerifDisplay_ExtraCondensed-SemiBold.ttf');
 }
 
 .accordion li > div {
-  display: none;
+    display: none;
 }
 
 .accordion .flipY {
-  transform: rotate3d(1, 0, 0, 180deg);
+    transform: rotate3d(1, 0, 0, 180deg);
 }
 
 .accordion svg {
-  transition: all 1s cubic-bezier(0, 0.5, 0, 1);
+    transition: all 1s cubic-bezier(0, 0.5, 0, 1);
 }

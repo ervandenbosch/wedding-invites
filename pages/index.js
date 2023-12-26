@@ -22,8 +22,8 @@ export default function Home() {
             >
                 <div className="relative ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
-                    <div className="font-notoreg text-[80px] italic md:text-[60px]">our</div>
-                    <div className="mb-12 whitespace-nowrap font-notoreg text-[180px] lg:text-[120px] md:text-[80px]">
+                    <div className="font-notoreg2 text-[80px] italic md:text-[60px]">our</div>
+                    <div className="mb-12 whitespace-nowrap font-notoreg2 text-[180px] lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>
