@@ -13,7 +13,7 @@ export default function Invitation() {
     return (
         <>
             <div className="mt-[48px] flex h-[88vh] w-full flex-row sm:flex-col" id="top">
-                <img src="/images/cover.png" className="absolute h-[86vh] w-full object-cover" />
+                <img src="/images/cover.jpg" className="absolute h-[86vh] w-full object-cover" />
                 <div className="relative ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
                     <div className="font-notoreg text-[80px] italic md:text-[60px]">our</div>
