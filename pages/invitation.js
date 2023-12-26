@@ -94,7 +94,7 @@ export default function Invitation() {
                                 </div>
                                 <div
                                     class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-screen  group-focus:px-6 group-focus:opacity-100
+                  group-focus:max-h-full  group-focus:px-6 group-focus:opacity-100
                   group-focus:duration-1000"
                                 >
                                     The prices in the area are ~100 EUR per room per night. <br />
@@ -178,7 +178,7 @@ export default function Invitation() {
                                 </div>
                                 <div
                                     class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-screen  group-focus:opacity-100
+                  group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
                                 >
                                     The easiest way to get to our venue is by car.
@@ -208,7 +208,7 @@ export default function Invitation() {
                                 </div>
                                 <div
                                     class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-screen  group-focus:opacity-100
+                  group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
                                 >
                                     <b>Autem</b>
