@@ -61,7 +61,7 @@ export default function Invitation() {
                     </h3>
                     <div className="mx-8 pt-6 text-center">We are happy to also welcome your plus ones.</div>
                     <h2
-                        className="p-5 pt-[64px] text-center font-notoreg text-4xl font-bold text-black"
+                        className="p-5 pt-[64px] text-center font-notoreg text-5xl font-bold text-black"
                         id="accomodation"
                     >
                         Accomodation
@@ -161,7 +161,7 @@ export default function Invitation() {
                         <button></button>
                     </div>
 
-                    <h2 className="pb-2 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="route">
+                    <h2 className="pb-2 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="route">
                         Route
                     </h2>
 
@@ -273,7 +273,7 @@ export default function Invitation() {
                             </div>
                         </div>
                     </div>
-                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="dresscode">
+                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="dresscode">
                         Dresscode
                     </h2>
                     <div className="mx-8 p-6 text-center">
@@ -292,7 +292,7 @@ export default function Invitation() {
                             }}
                         ></img>
                     </div>
-                    <h2 className="p-2 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="gifts">
+                    <h2 className="p-2 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="gifts">
                         Gifts
                     </h2>
                     <div className="mx-8 p-6 text-center">

@@ -22,8 +22,8 @@ export default function Home() {
             >
                 <div className="ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
-                    <div className="font-notoreg text-[80px] italic md:text-[60px]">our</div>
-                    <div className="mb-8 whitespace-nowrap font-notoreg text-[180px] lg:text-[120px] md:text-[80px]">
+                    <div className="font-notoreg2 text-[80px] italic md:text-[60px]">our</div>
+                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[180px] lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>
@@ -43,7 +43,7 @@ export default function Home() {
 
             <div className="flex flex-row bg-white pb-10  md:flex-wrap">
                 <div className="flex w-full flex-col border-black bg-white pb-10">
-                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="wedding">
+                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="wedding">
                         Wedding info
                     </h2>
                     <h3 className="text-center font-notoreg text-2xl font-bold text-black">Intro</h3>
@@ -64,7 +64,7 @@ export default function Home() {
                         case, you’ll have to arrange your own accommodation.
                     </div>
                     <h2
-                        className="p-5 pt-[64px] text-center font-notoreg text-4xl font-bold text-black"
+                        className="p-5 pt-[64px] text-center font-notoreg text-5xl font-bold text-black"
                         id="accomodation"
                     >
                         Accomodation
@@ -165,7 +165,7 @@ export default function Home() {
                         <button></button>
                     </div>
 
-                    <h2 className="pb-2 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="route">
+                    <h2 className="pb-2 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="route">
                         Route
                     </h2>
 
@@ -277,7 +277,7 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="dresscode">
+                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="dresscode">
                         Dresscode
                     </h2>
                     <div className="mx-8 p-6 text-center">
@@ -296,7 +296,7 @@ export default function Home() {
                             }}
                         ></img>
                     </div>
-                    <h2 className="p-2 pt-[64px] text-center font-notoreg text-4xl font-bold text-black" id="gifts">
+                    <h2 className="p-2 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="gifts">
                         Gifts
                     </h2>
                     <div className="mx-8 p-6 text-center">
