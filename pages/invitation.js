@@ -81,7 +81,7 @@ export default function Invitation() {
                         <div class="m-5 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                tabindex="2"
+                                tabIndex="1"
                             >
                                 <div class="mt-2 flex cursor-pointer items-center justify-between">
                                     <span>
@@ -164,7 +164,7 @@ export default function Invitation() {
                         <div class="m-5 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                tabindex="2"
+                                tabIndex="1"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
                                     <span>
@@ -194,7 +194,7 @@ export default function Invitation() {
                         <div class="m-5 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                tabindex="2"
+                                tabIndex="2"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
                                     <span>
