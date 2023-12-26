@@ -73,9 +73,6 @@ export default function Home() {
                         Accomodation
                     </h2>
                     <div className="mx-6 p-4 text-center">
-                        <h3 className="pb-3 font-bold">Food</h3>
-                        Food is included throughout the day of the wedding, and also a shared breakfast the next day.
-                        <h3 className="pb-4 pt-7 font-bold">Accommodation </h3>
                         Accommodation is
                         <b> included in your invite</b>. It is directly on site, so you won’t have to commute anywhere.
                         However, because of the challenging task of managing limited spaces for accommodations, you
@@ -84,12 +81,6 @@ export default function Home() {
                         accommodation in the surrounding area, or perhaps spend a cozy night under the stars in your
                         tent on the site, let us know through the RSVP form, so that we can potentially free up your
                         spot to other guests, who were not offered an on site accommodation.
-                        <br />
-                        <br /> Visit our venue's website{' '}
-                        <a href="http://domainedemonenfance.com/ferme-du-pignon/" className="underline">
-                            here
-                        </a>
-                        .
                         <div class="m-5 mt-8 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
@@ -115,29 +106,49 @@ export default function Home() {
                                     <ul>
                                         <li>
                                             {' '}
-                                            <a className="underline" href="https://maps.app.goo.gl/34RfcNw4a7UWAFzdA">
+                                            <a
+                                                className="underline"
+                                                href="https://maps.app.goo.gl/34RfcNw4a7UWAFzdA"
+                                                target="_blank"
+                                            >
                                                 Option 1
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="underline" href="https://maps.app.goo.gl/JQ1JqNN9mspjMYbm6">
+                                            <a
+                                                className="underline"
+                                                href="https://maps.app.goo.gl/JQ1JqNN9mspjMYbm6"
+                                                target="_blank"
+                                            >
                                                 Option 2
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="underline" href="https://maps.app.goo.gl/UEtLnDDQQN2JjuAW9">
+                                            <a
+                                                className="underline"
+                                                href="https://maps.app.goo.gl/UEtLnDDQQN2JjuAW9"
+                                                target="_blank"
+                                            >
                                                 Option 3
                                             </a>
                                         </li>
                                         <li>
                                             {' '}
-                                            <a className="underline" href="https://maps.app.goo.gl/4PBoBBUQ1ZSjD4Eb8">
+                                            <a
+                                                className="underline"
+                                                href="https://maps.app.goo.gl/4PBoBBUQ1ZSjD4Eb8"
+                                                target="_blank"
+                                            >
                                                 Option 4
                                             </a>
                                         </li>
                                         <li>
                                             {' '}
-                                            <a className="underline" href="https://maps.app.goo.gl/Anwu2RV5iUxB3iEg7">
+                                            <a
+                                                className="underline"
+                                                href="https://maps.app.goo.gl/Anwu2RV5iUxB3iEg7"
+                                                target="_blank"
+                                            >
                                                 Option 5
                                             </a>
                                         </li>
@@ -146,18 +157,30 @@ export default function Home() {
                                     About 15 mins drive away:
                                     <ul>
                                         <li>
-                                            <a className="underline" href="https://maps.app.goo.gl/htunon5PDaSb1P1DA">
+                                            <a
+                                                className="underline"
+                                                href="https://maps.app.goo.gl/htunon5PDaSb1P1DA"
+                                                target="_blank"
+                                            >
                                                 Option 1
                                             </a>
                                         </li>
                                         <li>
                                             {' '}
-                                            <a className="underline" href="https://maps.app.goo.gl/KyGTYtsFqBPMWBk2A">
+                                            <a
+                                                className="underline"
+                                                href="https://maps.app.goo.gl/KyGTYtsFqBPMWBk2A"
+                                                target="_blank"
+                                            >
                                                 Option 2
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="underline" href="https://maps.app.goo.gl/sjTYvtNcfnQ672Lp9">
+                                            <a
+                                                className="underline"
+                                                href="https://maps.app.goo.gl/sjTYvtNcfnQ672Lp9"
+                                                target="_blank"
+                                            >
                                                 Option 3
                                             </a>
                                         </li>
