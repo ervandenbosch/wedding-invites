@@ -22,8 +22,8 @@ export default function Home() {
             >
                 <div className="ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
-                    <div className="font-notoreg2 text-[80px] italic md:text-[60px]">our</div>
-                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[180px] lg:text-[120px] md:text-[80px]">
+                    <div className="font-notoreg2 text-[80px] italic leading-none md:text-[60px]">our</div>
+                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[180px] leading-none lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>
@@ -57,6 +57,12 @@ export default function Home() {
                         gather with those who have been instrumental in our journey and to create lasting memories
                         together. Your presence is a cherished gift, and we can't wait to share this joyous occasion
                         with the remarkable people who have made us who we are.
+                    </div>
+
+                    <h3 className="text-center font-notoreg text-2xl font-bold text-black">When and where? </h3>
+                    <div className="mx-8 p-6 text-center">
+                        27.07.2024 in Ferme du Pignon, France. <br />
+                        Arrive at 14:00.
                     </div>
 
                     <h3 className="text-center font-notoreg text-2xl font-bold text-black">
@@ -331,7 +337,7 @@ export default function Home() {
                         Planned adventures together will allow us to make new unforgettable memories with people we care
                         about, that we’ll always cherish.
                     </div>
-                    <h2 className="p-4 text-center font-notoreg text-4xl  font-bold text-blue-900  ">RSVP</h2>
+                    <h2 className="p-4 text-center font-notoreg text-5xl  font-bold text-blue-900  ">RSVP</h2>
                     <div className="mx-8 p-6 text-center">
                         Please let us know back by 1st of February if you are coming or not, so that we can start
                         arranging everything accordingly.
