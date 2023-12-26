@@ -20,19 +20,19 @@ export default function Home() {
                     backgroundPosition: 'center',
                 }}
             >
-                <div className="relative ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
+                <div className="mb-14 ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
                     <div className="font-notoreg2 text-[80px] italic leading-none md:text-[60px]">our</div>
-                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[180px] leading-none lg:text-[120px] md:text-[80px]">
+                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[220px] leading-none lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>
-                <div className="mr-18 sm:mb-18 relative mb-32 w-full self-end text-center font-serif text-4xl tracking-wide text-white md:self-center sm:text-2xl">
+                <div className="mr-18 sm:mb-18 mb-32 w-full self-end text-center font-serif text-4xl tracking-wide text-white md:self-center sm:text-2xl">
                     Saturday,
                     <div>27 July 2024,</div>
                     <div>France</div>
-                    <div className="mt-12 pr-4 text-white">
-                        <Link href="https://54deicxmihb.typeform.com/to/ULCDxC4s">
+                    <div className="mt-8 pr-4 text-white">
+                        <Link href="https://54deicxmihb.typeform.com/to/e8zkTPkQ">
                             <button className=" py-0.2 ml-8  rounded-xl border-2 border-gray-400 bg-white px-12 text-gray-800 md:px-6">
                                 RSVP
                             </button>

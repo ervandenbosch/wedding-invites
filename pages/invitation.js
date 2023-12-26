@@ -20,14 +20,14 @@ export default function Invitation() {
                     backgroundPosition: 'center',
                 }}
             >
-                <div className="mb-12 ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
+                <div className="mb-14 ml-32 flex w-full flex-col justify-end text-white lg:mb-12 lg:items-start md:justify-center sm:m-auto sm:mb-6 sm:items-center sm:justify-center">
                     <div className="font-aileron text-[25px]"> MONIKA & EZRA</div>
                     <div className="font-notoreg2 text-[80px] italic leading-none md:text-[60px]">our</div>
-                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[180px] leading-none lg:text-[120px] md:text-[80px]">
+                    <div className="mb-8 whitespace-nowrap font-notoreg2 text-[220px] leading-none lg:text-[120px] md:text-[80px]">
                         Big Day
                     </div>
                 </div>
-                <div className="mr-18 sm:mb-18 mb-24 w-full self-end text-center font-serif text-4xl tracking-wide text-white md:self-center sm:text-2xl">
+                <div className="mr-18 sm:mb-18 mb-32 w-full self-end text-center font-serif text-4xl tracking-wide text-white md:self-center sm:text-2xl">
                     Saturday,
                     <div>27 July 2024,</div>
                     <div>France</div>
@@ -51,12 +51,12 @@ export default function Invitation() {
                     </h2>
                     <h3 className="text-center font-notoreg text-2xl font-bold text-black">Intro</h3>
                     <div className="mx-8 p-6 text-center">
-                        Welcome to our wedding celebration! This moment is not just about uniting as a couple, but also
-                        a heartfelt tribute to the incredible friends and family who've shaped us into the individuals
-                        we are today. That's why this celebration is so meaningful to us—it's a rare opportunity to
+                        Welcome to our wedding celebration! This moment is not just about us, uniting as a couple, but
+                        also a heartfelt tribute to the incredible friends and family who've shaped us into the
+                        individuals we are today.
+                        <br /> <br /> That's why this celebration is so meaningful to us - it's a rare opportunity to
                         gather with those who have been instrumental in our journey and to create lasting memories
-                        together. Your presence is a cherished gift, and we can't wait to share this joyous occasion
-                        with the remarkable people who have made us who we are.
+                        together. We can't wait to share this joyous occasion with you.
                     </div>
 
                     <h3 className="text-center font-notoreg text-2xl font-bold text-black">When and where? </h3>
@@ -264,10 +264,9 @@ export default function Invitation() {
                                             <br />
                                         </li>
                                         <ul className="ml-6 list-decimal">
-                                            <li>Paris Beauvais Airport - about 1hr 30 mins by car from the airport </li>
+                                            <li>Paris Beauvais Airport - cca 1hr 30 mins autem na misto konani </li>
                                             <li>
-                                                Paris Charles de Gaulle Airport - about 1hr 20 mins by car by car from
-                                                the airport{' '}
+                                                Paris Charles de Gaulle Airport - cca 1hr 20 mins autem na misto konani{' '}
                                             </li>
                                         </ul>
                                         <li>
@@ -303,12 +302,24 @@ export default function Invitation() {
                         Dresscode
                     </h2>
                     <div className="mx-8 p-6 text-center">
-                        Our favourite colour is blue, so we’d love to incorporate it into our wedding dress code to add
-                        little extra touch and magic to our celebration. We invite you to join us in a vibrant display
-                        of colours by incorporating shades of the below displayed into your attire. Whether it's a
-                        splash of these hues or a full ensemble, your creativity is welcomed. While we suggest these
-                        colours, feel free to choose different shades that resonate with you, ensuring you feel
-                        comfortable and fabulous.
+                        <b>Attire</b>
+                        <br />
+                        Semi-formal attire
+                        <br />
+                        <br />
+                        <b>Dress code colour</b>
+                        <br /> Our favourite colour is blue, therefore, we’d love to incorporate it into our wedding
+                        dress code to add little extra touch to our celebration. We invite you to join us in a vibrant
+                        display of colours by incorporating shades of the below displayed colours into your attire.
+                        Whether it's a splash of these hues or a full ensemble, your creativity is welcomed. <br />
+                        <br />
+                        While we suggest these colours, feel free to choose different shades that resonate with you,
+                        ensuring you feel comfortable and fabulous. Our favourite colour is blue, so we’d love to
+                        incorporate it into our wedding dress code to add little extra touch and magic to our
+                        celebration. We invite you to join us in a vibrant display of colours by incorporating shades of
+                        the below displayed into your attire. Whether it's a splash of these hues or a full ensemble,
+                        your creativity is welcomed. While we suggest these colours, feel free to choose different
+                        shades that resonate with you, ensuring you feel comfortable and fabulous.
                         <img
                             src="./images/color.png"
                             style={{
@@ -325,22 +336,18 @@ export default function Invitation() {
                         Gifts
                     </h2>
                     <div className="mx-8 p-6 text-center">
-                        Your presence at our wedding is the greatest gift of all, and we feel truly blessed to have you
-                        share in our special day. If you wish to celebrate with a gesture, a monetary gift, OR a planned
-                        adventure together, would be greatly appreciated.
+                        Your presence at our wedding is the greatest gift of all, and we feel blessed to have you share
+                        in our special day. If you wish to celebrate with a gesture, we would be grateful for a
+                        <b> monetary gift.</b> <br />
                         <br />
+                        Your monetary contributions will go towards a special fund helping us say goodbye to our trusty,
+                        but rather rusty, car and welcome new adventures with a new set of wheels. <br />
                         <br />
-                        Your monetary contributions will be dedicated to a special fund, helping us bid farewell to our
-                        trusty, but rather rusty, car and ushering in the prospect of new adventures with a new set of
-                        wheels.
-                        <br />
-                        <br />
-                        Planned adventures together will allow us to make new unforgettable memories with people we care
-                        about, that we’ll always cherish.
+                        Alternatively, we will be grateful for any gift or a an experience that comes from your heart.
                     </div>
                     <h2 className="p-4 text-center font-notoreg text-5xl  font-bold text-blue-900  ">RSVP</h2>
                     <div className="mx-8 p-6 text-center">
-                        Please let us know back by 1st of February if you are coming or not, so that we can start
+                        Please let us know before the 1st of February if you are coming or not, so that we can start
                         arranging everything accordingly.
                         <Link href="https://54deicxmihb.typeform.com/to/e8zkTPkQ">
                             <div className="m-8">
