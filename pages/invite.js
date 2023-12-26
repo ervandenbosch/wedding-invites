@@ -43,7 +43,10 @@ export default function Home() {
 
             <div className="flex flex-row bg-white pb-10  md:flex-wrap">
                 <div className="flex w-full flex-col border-black bg-white pb-10">
-                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="wedding">
+                    <h2
+                        className="p-4 pt-[64px] text-center font-notoreg text-5xl font-bold text-blue-900"
+                        id="wedding"
+                    >
                         Wedding info
                     </h2>
                     <h3 className="text-center font-notoreg text-2xl font-bold text-black">Intro</h3>
@@ -64,7 +67,7 @@ export default function Home() {
                         case, you’ll have to arrange your own accommodation.
                     </div>
                     <h2
-                        className="p-5 pt-[64px] text-center font-notoreg text-5xl font-bold text-black"
+                        className="p-5 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
                         id="accomodation"
                     >
                         Accomodation
@@ -165,7 +168,10 @@ export default function Home() {
                         <button></button>
                     </div>
 
-                    <h2 className="pb-2 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="route">
+                    <h2
+                        className="pb-2 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
+                        id="route"
+                    >
                         Route
                     </h2>
 
@@ -277,7 +283,10 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-                    <h2 className="p-4 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="dresscode">
+                    <h2
+                        className="p-4 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
+                        id="dresscode"
+                    >
                         Dresscode
                     </h2>
                     <div className="mx-8 p-6 text-center">
@@ -296,7 +305,10 @@ export default function Home() {
                             }}
                         ></img>
                     </div>
-                    <h2 className="p-2 pt-[64px] text-center font-notoreg text-5xl font-bold text-black" id="gifts">
+                    <h2
+                        className="p-2 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
+                        id="gifts"
+                    >
                         Gifts
                     </h2>
                     <div className="mx-8 p-6 text-center">
@@ -313,7 +325,7 @@ export default function Home() {
                         Planned adventures together will allow us to make new unforgettable memories with people we care
                         about, that we’ll always cherish.
                     </div>
-                    <h2 className="p-4 text-center font-notoreg text-4xl font-bold text-black">RSVP</h2>
+                    <h2 className="p-4 text-center font-notoreg text-4xl  font-bold text-blue-900  ">RSVP</h2>
                     <div className="mx-8 p-6 text-center">
                         Please let us know back by 1st of February if you are coming or not, so that we can start
                         arranging everything accordingly.
