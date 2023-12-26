@@ -27,7 +27,7 @@ export default function Invitation() {
                         Big Day
                     </div>
                 </div>
-                <div className="mr-18 mb-24 w-full self-end text-center font-serif text-4xl tracking-wide text-white md:self-center sm:mb-14 sm:text-2xl">
+                <div className="mr-18 mb-24 w-full self-end text-center font-serif text-4xl tracking-wide text-white md:self-center sm:mb-16 sm:text-2xl">
                     Saturday,
                     <div>27 July 2024,</div>
                     <div>France</div>
