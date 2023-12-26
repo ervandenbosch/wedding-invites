@@ -77,7 +77,12 @@ export default function Invitation() {
                         to provide lodging for all our cherished guests. Please know that this decision was not made
                         lightly, and we sincerely appreciate your understanding and flexibility in this matter. We look
                         forward to sharing this beautiful day with you, and we are grateful for your understanding as we
-                        navigate these logistical challenges.
+                        navigate these logistical challenges. <br />
+                        <br /> Visit our venue's website{' '}
+                        <a href="http://domainedemonenfance.com/ferme-du-pignon/" className="underline">
+                            here
+                        </a>
+                        .
                         <div class="m-5 mt-8 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
