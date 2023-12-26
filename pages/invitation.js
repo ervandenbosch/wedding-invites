@@ -160,7 +160,7 @@ export default function Invitation() {
                         ROUTE
                     </h2>
 
-                    <div className="mx-8 p-6 text-left">
+                    <div className="mx-6 p-6 text-left sm:mx-2">
                         <div class="m-5 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
