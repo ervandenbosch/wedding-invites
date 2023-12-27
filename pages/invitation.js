@@ -314,12 +314,7 @@ export default function Invitation() {
                         Whether it's a splash of these hues or a full ensemble, your creativity is welcomed. <br />
                         <br />
                         While we suggest these colours, feel free to choose different shades that resonate with you,
-                        ensuring you feel comfortable and fabulous. Our favourite colour is blue, so we’d love to
-                        incorporate it into our wedding dress code to add little extra touch and magic to our
-                        celebration. We invite you to join us in a vibrant display of colours by incorporating shades of
-                        the below displayed into your attire. Whether it's a splash of these hues or a full ensemble,
-                        your creativity is welcomed. While we suggest these colours, feel free to choose different
-                        shades that resonate with you, ensuring you feel comfortable and fabulous.
+                        ensuring you feel comfortable and fabulous.{' '}
                         <img
                             src="./images/color.png"
                             style={{
