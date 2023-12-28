@@ -63,6 +63,9 @@ export default function Home() {
                     <div className="mx-8 p-6 text-center">
                         27.07.2024 in Ferme du Pignon, France. <br />
                         Arrive at 14:00.
+                        <br /> <br />
+                        The wedding is taking place in the north of France in the middle of nowhere at a very cute and
+                        cozy location. It is a renovated farm with a natural lake in the middle of the forest.
                     </div>
 
                     <h3 className="text-center font-notoreg text-2xl font-bold text-black">
