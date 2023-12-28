@@ -32,7 +32,7 @@ export default function Home() {
                     <div>27 July 2024,</div>
                     <div>France</div>
                     <div className="mt-8 pr-4 text-white">
-                        <Link href="https://54deicxmihb.typeform.com/to/e8zkTPkQ">
+                        <Link href="https://54deicxmihb.typeform.com/to/ULCDxC4s">
                             <button className=" py-0.2 ml-8  rounded-xl border-2 border-gray-400 bg-white px-12 text-gray-800 md:px-6">
                                 RSVP
                             </button>
@@ -319,8 +319,8 @@ export default function Home() {
                     </div>
                     <h2 className="p-4 text-center font-notoreg text-5xl  font-bold text-blue-900  ">RSVP</h2>
                     <div className="mx-8 p-6 text-center">
-                        Please let us know before the 1st of February if you are coming or not, so that we can start
-                        arranging everything accordingly.
+                        Please let us know through the form if you are coming or not, so that we can start arranging
+                        everything accordingly:
                         <Link href="https://54deicxmihb.typeform.com/to/ULCDxC4s">
                             <div className="m-8">
                                 <button className="m-auto rounded-xl border-4 bg-gray-600  px-12 py-2 text-gray-200 md:px-6">

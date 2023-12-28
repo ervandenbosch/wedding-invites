@@ -317,8 +317,8 @@ export default function Invitation() {
                     </div>
                     <h2 className="p-4 text-center font-notoreg text-5xl  font-bold text-blue-900  ">RSVP</h2>
                     <div className="mx-8 p-6 text-center">
-                        Please let us know before the 1st of February if you are coming or not, so that we can start
-                        arranging everything accordingly.
+                        Please let us know through the form if you are coming or not, so that we can start arranging
+                        everything accordingly:
                         <Link href="https://54deicxmihb.typeform.com/to/e8zkTPkQ">
                             <div className="m-8">
                                 <button className="m-auto rounded-xl border-4 bg-gray-600  px-12 py-2 text-gray-200 md:px-6">
