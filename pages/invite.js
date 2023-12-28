@@ -86,10 +86,11 @@ export default function Home() {
                         <b> included in your invite</b>. It is directly on site, so you won’t have to commute anywhere.
                         However, because of the challenging task of managing limited spaces for accommodations, you
                         might have to <b> share </b>a room (if you are invited as a couple) or even the same bed (if you
-                        are invited alone) with somebody else that you know. If you prefer to arrange your own
-                        accommodation in the surrounding area, or perhaps spend a cozy night under the stars in your
-                        tent on the site, let us know through the RSVP form, so that we can potentially free up your
-                        spot to other guests, who were not offered an on site accommodation.
+                        are invited alone) with somebody else that you know. <br />
+                        <br />
+                        If you prefer to arrange your own accommodation in the surrounding area, or perhaps spend a cozy
+                        night under the stars in your tent on the site, let us know through the RSVP form, so that we
+                        can potentially free up your spot to other guests, who are not offered an on site accommodation.
                         <div class="m-5 mt-8 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
