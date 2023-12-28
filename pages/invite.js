@@ -149,31 +149,6 @@ export default function Home() {
                                             <li>Option 5 </li>
                                         </a>
                                     </ul>
-                                    <br />
-                                    About 15 mins drive away:
-                                    <ul>
-                                        <a
-                                            className="underline"
-                                            href="https://maps.app.goo.gl/htunon5PDaSb1P1DA"
-                                            target="_blank"
-                                        >
-                                            <li>Option 1</li>
-                                        </a>{' '}
-                                        <a
-                                            className="underline"
-                                            href="https://maps.app.goo.gl/KyGTYtsFqBPMWBk2A"
-                                            target="_blank"
-                                        >
-                                            <li>Option 2 </li>
-                                        </a>
-                                        <a
-                                            className="underline"
-                                            href="https://maps.app.goo.gl/sjTYvtNcfnQ672Lp9"
-                                            target="_blank"
-                                        >
-                                            <li>Option 3 </li>
-                                        </a>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
