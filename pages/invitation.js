@@ -81,14 +81,14 @@ export default function Invitation() {
                     <div className="mx-6 p-4 text-center">
                         Accommodation is unfortunately <b>not included</b> in your invite.
                         <br />
+                        <br />
                         As we eagerly anticipate our wedding day, we find ourselves faced with the challenging task of
                         managing limited spaces for accommodations. Regrettably, due to these constraints, we are unable
                         to provide lodging for all our cherished guests. Please know that this decision was not made
                         lightly, and we sincerely appreciate your understanding and flexibility in this matter. <br />
-                        We look forward to sharing this beautiful day with you, and we are grateful for your
-                        understanding as we navigate these logistical challenges. <br />
                         <br />
-                        We will arrange a taxi in the evening for you to your stay.
+                        We look forward to sharing this beautiful day with you, and we are grateful for your
+                        understanding as we navigate these logistical challenges.
                         <div class="m-5 mt-8 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
