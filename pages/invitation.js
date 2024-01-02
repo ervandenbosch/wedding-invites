@@ -65,7 +65,11 @@ export default function Invitation() {
                         Arrive at 14:00.
                         <br /> <br />
                         The wedding is taking place in the north of France in the middle of nowhere at a very cute and
-                        cozy location. It is a renovated farm with a natural lake in the middle of the forest.
+                        cozy location. It is a renovated farm with a natural lake in the middle of the forest. The
+                        location can be found{' '}
+                        <a href="https://maps.app.goo.gl/eX6MuUAgsqSMCsXF7" className="cursor-pointer underline">
+                            here
+                        </a>
                     </div>
 
                     <h3 className="text-center font-notoreg text-2xl font-bold text-black">
