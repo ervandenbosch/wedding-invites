@@ -192,160 +192,10 @@ export default function Home() {
                         </div>
                     </div>
 
-                    <h2
-                        className="p-5 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
-                        id="accomodation"
-                    >
-                        FAQs
-                    </h2>
-                    <div class="m-5 space-y-2 sm:mx-2">
-                        <div
-                            class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                            tabIndex="1"
-                        >
-                            <div class="flex cursor-pointer items-center justify-between">
-                                <span>
-                                    <b>Which meals are included?</b>
-                                </span>
-                                <img
-                                    src="/images/arrow.png"
-                                    class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                />
-                            </div>
-                            <div
-                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
-                            >
-                                We will provide you with following meals: <br />
-                                <br />
-                                <ul className="ml-4 list-disc">
-                                    <li>
-                                        Saturday: We will provide guests with light lunch and dinner on Saturday in a
-                                        form of a buffet.
-                                    </li>
-                                    <li>
-                                        Sunday: Breakfast will be available at the wedding venue around 10am. We’ll
-                                        serve “Pho”, a traditional Vietnamese noodle soup. For those who don’t want to
-                                        eat Pho, there will be also some yoghurts, toast breads & hams and cheeses, milk
-                                        with cereals available too.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="m-5 space-y-2 sm:mx-2">
-                        <div
-                            class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                            tabIndex="1"
-                        >
-                            <div class="flex cursor-pointer items-center justify-between">
-                                <span>
-                                    <b>What to bring with me?</b>
-                                </span>
-                                <img
-                                    src="/images/arrow.png"
-                                    class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                />
-                            </div>
-                            <div
-                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
-                            >
-                                Apart from things that you’d normally take with you, make sure you’ll bring:
-                                <br />
-                                <br />
-                                <ul className="ml-4 list-disc">
-                                    <li>
-                                        <b>Towels</b> (only if you are accommodated at the wedding venue)
-                                    </li>
-                                    <li>
-                                        <b>Swim suit</b> in case you’ll find the right moment to take a dip in the small
-                                        lake at the venue
-                                    </li>
-                                    <li>
-                                        <b>Some moooves</b> - as our wedding ceremony exit, we opted for this awesome
-                                        dance (see video) from Hitch (Monika’s favorite romantic movie) where everyone
-                                        will get the chance to show their moves! If you’re feeling shy, that’s alright,
-                                        you can just stand in the first row and cheer for the dancers 👯 <br />
-                                        Note: This dance is inspired by “soul train line dance” from the 70s. If you’re
-                                        fishing some moves, here is a nice collection.
-                                    </li>
-                                    <li>
-                                        <b>Your favorite food and/or drinks to share (optional)</b> - it’s often said
-                                        “Love goes through the stomach”, and so if you have some food or a drink that
-                                        makes you happy, feel free to bring a bit along with you to share. Just let us
-                                        know in advance so we can make the necessary arrangements.
-                                    </li>
-                                    <li>
-                                        <b>Paper or mini-electric fans </b>- It might get really hot next month, so
-                                        having something to cool yourself down could come in really handy.
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="m-5 space-y-2 sm:mx-2">
-                        <div
-                            class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                            tabIndex="1"
-                        >
-                            <div class="flex cursor-pointer items-center justify-between">
-                                <span>
-                                    <b>Can I help with something?</b>
-                                </span>
-                                <img
-                                    src="/images/arrow.png"
-                                    class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                />
-                            </div>
-                            <div
-                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
-                            >
-                                Absolutely! We have no staff on our wedding to help us serve food & drinks and to clean
-                                up. Therefore, we would appreciate if everyone would help us with keeping the venue
-                                clean. If you’d like to offer a helping hand with some extra little things, let us know
-                                and we’ll add you to our task force 💪
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="m-5 space-y-2 sm:mx-2">
-                        <div
-                            class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                            tabIndex="1"
-                        >
-                            <div class="flex cursor-pointer items-center justify-between">
-                                <span>
-                                    <b>Can I pitch some ideas for the program?</b>
-                                </span>
-                                <img
-                                    src="/images/arrow.png"
-                                    class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                />
-                            </div>
-                            <div
-                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
-                            >
-                                Yes again! If you have an idea for a fun game or activity feel free to pitch it to the
-                                new weds. In case you would like it to be a surprise for us, contact our wedding
-                                coordinator Maude via Whatsapp on +33 6 10 53 42 64. She’ll do her best to incorporate
-                                into our program 👿
-                            </div>
-                        </div>
-                    </div>
-
                     <div className="mx-6 p-6 text-left sm:mx-2">
                         <div class="m-5 space-y-2 sm:mx-2">
                             <h2
-                                className="p-4 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900"
+                                className="p-4 pt-[24px] text-center font-notoreg text-5xl  font-bold text-blue-900"
                                 id="dresscode"
                             >
                                 Dresscode
@@ -374,6 +224,7 @@ export default function Home() {
                                     }}
                                 ></img>
                             </div>
+
                             <h2
                                 className="p-2 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
                                 id="gifts"
@@ -391,6 +242,189 @@ export default function Home() {
                                 <br />
                                 Alternatively, we will be grateful for any gift or a an experience that comes from your
                                 heart.
+                            </div>
+                            <h2
+                                className="p-5 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
+                                id="accomodation"
+                            >
+                                FAQs
+                            </h2>
+                            <div class="m-5 space-y-2 sm:mx-2">
+                                <div
+                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                    tabIndex="1"
+                                >
+                                    <div class="flex cursor-pointer items-center justify-between">
+                                        <span>
+                                            <b>Which meals are included?</b>
+                                        </span>
+                                        <img
+                                            src="/images/arrow.png"
+                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                        />
+                                    </div>
+                                    <div
+                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                  group-focus:max-h-full  group-focus:opacity-100
+                  group-focus:duration-1000"
+                                    >
+                                        We will provide you with following meals: <br />
+                                        <br />
+                                        <ul className="ml-4 list-disc">
+                                            <li>
+                                                Saturday: We will provide guests with light lunch and dinner on Saturday
+                                                in a form of a buffet.
+                                            </li>
+                                            <li>
+                                                Sunday: Breakfast will be available at the wedding venue around 10am.
+                                                We’ll serve “Pho”, a traditional Vietnamese noodle soup. For those who
+                                                don’t want to eat Pho, there will be also some yoghurts, toast breads &
+                                                hams and cheeses, milk with cereals available too.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="m-5 space-y-2 sm:mx-2">
+                                <div
+                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                    tabIndex="1"
+                                >
+                                    <div class="flex cursor-pointer items-center justify-between">
+                                        <span>
+                                            <b>What to bring with me?</b>
+                                        </span>
+                                        <img
+                                            src="/images/arrow.png"
+                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                        />
+                                    </div>
+                                    <div
+                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                  group-focus:max-h-full  group-focus:opacity-100
+                  group-focus:duration-1000"
+                                    >
+                                        Apart from things that you’d normally take with you, make sure you’ll bring:
+                                        <br />
+                                        <br />
+                                        <ul className="ml-4 list-disc">
+                                            <li>
+                                                <b>Towels</b> (only if you are accommodated at the wedding venue)
+                                            </li>
+                                            <li>
+                                                <b>Swim suit</b> in case you’ll find the right moment to take a dip in
+                                                the small lake at the venue
+                                            </li>
+                                            <li>
+                                                <b>Some moooves</b> - - for our wedding ceremony exit, we've chosen{' '}
+                                                <a href="https://www.youtube.com/watch?v=inPnVL41N_c">
+                                                    a dance from Hitch
+                                                </a>
+                                                (Monika's favorite romantic movie). Everyone will have the opportunity
+                                                to showcase their dance moves! If you're feeling shy, no worries. You
+                                                can stand in the front row and cheer for the dancers 👯 Note: This dance
+                                                is inspired by the "soul train line dance" of the 70s. If you're looking
+                                                for some dance moves,{' '}
+                                                <a href="https://www.youtube.com/watch?v=sHctA5PK9DE&list=PLZTqAZSvzlVN8BXlq1EiyO6W2vLjTynOR">
+                                                    this great collection
+                                                </a>
+                                                can serve as your inspiration.
+                                            </li>
+                                            <li>
+                                                <b>Your favorite food and/or drinks to share (optional)</b> - it’s often
+                                                said “Love goes through the stomach”, and so if you have some food or a
+                                                drink that makes you happy, feel free to bring a bit along with you to
+                                                share. Just let us know in advance so we can make the necessary
+                                                arrangements.
+                                            </li>
+                                            <li>
+                                                <b>Paper or mini-electric fans </b>- It might get really hot next month,
+                                                so having something to cool yourself down could come in really handy.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="m-5 space-y-2 sm:mx-2">
+                                <div
+                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                    tabIndex="1"
+                                >
+                                    <div class="flex cursor-pointer items-center justify-between">
+                                        <span>
+                                            <b>Can I help with something?</b>
+                                        </span>
+                                        <img
+                                            src="/images/arrow.png"
+                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                        />
+                                    </div>
+                                    <div
+                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                  group-focus:max-h-full  group-focus:opacity-100
+                  group-focus:duration-1000"
+                                    >
+                                        Absolutely! We have no staff on our wedding to help us serve food & drinks and
+                                        to clean up. Therefore, we would appreciate if everyone would help us with
+                                        keeping the venue clean. If you’d like to offer a helping hand with some extra
+                                        little things, let us know and we’ll add you to our task force 💪
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="m-5 space-y-2 sm:mx-2">
+                                <div
+                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                    tabIndex="1"
+                                >
+                                    <div class="flex cursor-pointer items-center justify-between">
+                                        <span>
+                                            <b>Can I pitch some ideas for the program?</b>
+                                        </span>
+                                        <img
+                                            src="/images/arrow.png"
+                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                        />
+                                    </div>
+                                    <div
+                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                  group-focus:max-h-full  group-focus:opacity-100
+                  group-focus:duration-1000"
+                                    >
+                                        Yes again! If you have an idea for a fun game or activity feel free to pitch it
+                                        to the new weds. In case you would like it to be a surprise for us, contact our
+                                        wedding coordinator Maude via Whatsapp on +33 6 10 53 42 64. She’ll do her best
+                                        to incorporate into our program 👿
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="m-5 space-y-2 sm:mx-2">
+                                <div
+                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                    tabIndex="1"
+                                >
+                                    <div class="flex cursor-pointer items-center justify-between">
+                                        <span>
+                                            <b>Should I bring cash or can I transfer money to you?</b>
+                                        </span>
+                                        <img
+                                            src="/images/arrow.png"
+                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                        />
+                                    </div>
+                                    <div
+                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                  group-focus:max-h-full  group-focus:opacity-100
+                  group-focus:duration-1000"
+                                    >
+                                        Both will be possible. There will be a secured card box set aside on the day
+                                        where you can safely deposit your card. For those of you who would like to pay
+                                        by card, there will be a QR code.
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
