@@ -53,21 +53,6 @@ export default function Home() {
 
                     <div class="m-auto mt-4 flex text-center">
                         <div>
-                            <h3 className="mt-4 text-center font-notoreg text-2xl font-bold text-black">When? </h3>
-                            <div class="mx-16 p-8 text-center">
-                                {' '}
-                                Arrive to the wedding venue on Saturday between 12:30 - 14:00 (unless agreed to on
-                                otherwise).
-                                <br />
-                                <br />
-                                The ceremony will start at 15:00.
-                            </div>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2588.736671015879!2d3.3168240000000004!3d49.546121899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8439f1f81cc9b%3A0xaccf631307b93ded!2sFerme%20du%20Pignon%20(grand%20g%C3%AEtes)!5e0!3m2!1sen!2snl!4v1703600234549!5m2!1sen!2snl"
-                                style={{ margin: 'auto', marginTop: '10px', maxWidth: '90%' }}
-                            ></iframe>
-                        </div>
-                        <div>
                             <h3 className="mt-4 text-center font-notoreg text-2xl font-bold text-black">Where? </h3>
                             <div class="mx-16 p-8">
                                 {' '}
@@ -76,6 +61,20 @@ export default function Home() {
                                 Frm du Pignon, 02380 Verneuil-sous-Coucy, France
                             </div>
                         </div>
+                    </div>
+                    <div>
+                        <h3 className="mt-4 text-center font-notoreg text-2xl font-bold text-black">When? </h3>
+                        <div class="mx-16 p-8 text-center">
+                            {' '}
+                            Arrive to the wedding venue on Saturday between 12:30 - 14:00 (unless asked otherwise).
+                            <br />
+                            <br />
+                            The ceremony will start at 15:00.
+                        </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2588.736671015879!2d3.3168240000000004!3d49.546121899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8439f1f81cc9b%3A0xaccf631307b93ded!2sFerme%20du%20Pignon%20(grand%20g%C3%AEtes)!5e0!3m2!1sen!2snl!4v1703600234549!5m2!1sen!2snl"
+                            style={{ margin: 'auto', marginTop: '10px', maxWidth: '90%' }}
+                        ></iframe>
                     </div>
 
                     <h2
