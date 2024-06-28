@@ -144,12 +144,11 @@ export default function Home() {
                   group-focus:duration-1000"
                             >
                                 <ul className="ml-4 list-disc">
-                                    <li>Check in at your hotel is only possible between 17:00-21:00. </li> <br />
+                                    <li>Check in at your hotel is only possible between 17:00-21:00. </li>
                                     <li>
                                         Please arrive to the wedding venue <b>first</b> and leave your things in the
-                                        car. If you’ll need to dress or touch up, you can do so on the premises of the
-                                        venue.
-                                        <br />
+                                        car. <br />
+                                        If you’ll need to dress or touch up, you can do so on the premises of the venue.
                                     </li>
                                     <li>
                                         After the ceremony, there will be a cocktail hour between 17:00-19:00. <br />
