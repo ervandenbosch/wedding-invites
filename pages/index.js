@@ -112,13 +112,19 @@ export default function Home() {
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
                             >
+                                {' '}
+                                <b>Check-in:</b>
                                 <ul className="ml-4 list-disc">
                                     <li>
                                         Friday guests: arrive after 5pm.
                                         <li>Saturday guests: Arrive between 12:30-14:00.</li>
                                     </li>
                                     <li>We will show you your room upon arrival. </li>
-                                    <li>Checkout is on Sunday at 16:00 </li>
+                                    <br />
+                                </ul>
+                                <b>Checkout:</b>
+                                <ul className="ml-4 list-disc">
+                                    <li> Sunday at 16:00 </li>
                                 </ul>
                             </div>
                         </div>
@@ -155,6 +161,8 @@ export default function Home() {
                                         You’ll be able to use this time to get to your hotel (only 7 minutes by car) and
                                         back before dinner starts! 😊
                                     </li>
+                                    <br />
+                                    <li>Checkout time at the hotel is until 11:00.</li>
                                 </ul>
                             </div>
                         </div>
