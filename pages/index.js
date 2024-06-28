@@ -266,13 +266,13 @@ export default function Home() {
                                         fishing some moves, here is a nice collection.
                                     </li>
                                     <li>
-                                        - <b>Your favorite food and/or drinks to share (optional)</b> - it’s often said
+                                        <b>Your favorite food and/or drinks to share (optional)</b> - it’s often said
                                         “Love goes through the stomach”, and so if you have some food or a drink that
                                         makes you happy, feel free to bring a bit along with you to share. Just let us
                                         know in advance so we can make the necessary arrangements.
                                     </li>
                                     <li>
-                                        Paper or mini-electric fans -It might get really hot next month, so having
+                                        Paper or mini-electric fans - It might get really hot next month, so having
                                         something to cool yourself down could come in really handy.
                                     </li>
                                 </ul>
