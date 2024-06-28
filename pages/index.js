@@ -60,6 +60,7 @@ export default function Home() {
                                 <br />
                                 Frm du Pignon, <br />
                                 02380 Verneuil-sous-Coucy, France
+                                <img src="/images/venue.png" class="m-auto mt-6 h-48 rounded-2xl" />
                             </div>
                         </div>
 
