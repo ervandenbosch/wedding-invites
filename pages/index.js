@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="flex flex-row bg-white pb-10  md:flex-wrap">
-                <div className="flex w-full flex-col border-black bg-white pb-10 lg2:mx-40">
+                <div className="flex w-full flex-col border-black bg-white pb-10 lg2:mx-48">
                     <h2
                         className="p-4 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
                         id="wedding"
@@ -112,10 +112,13 @@ export default function Home() {
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
                             >
-                                <ul>
-                                    <li>- Come between 12:30-14:00</li>
-                                    <li>- We will show you your room upon arrival. </li>
-                                    <li>- Checkout is on Sunday at 16:00 </li>
+                                <ul className="ml-4 list-disc">
+                                    <li>
+                                        Friday guests: arrive after 5pm.
+                                        <li>Saturday guests: Arrive between 12:30-14:00.</li>
+                                    </li>
+                                    <li>We will show you your room upon arrival. </li>
+                                    <li>Checkout is on Sunday at 16:00 </li>
                                 </ul>
                             </div>
                         </div>
@@ -140,13 +143,18 @@ export default function Home() {
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
                             >
-                                <ul>
-                                    <li>Check in at your hotel is only possible between 17:00-21:00. </li>{' '}
+                                <ul className="ml-4 list-disc">
+                                    <li>Check in at your hotel is only possible between 17:00-21:00. </li> <br />
                                     <li>
-                                        Please arrive to the wedding venue first and leave your things in the car. If
-                                        you’ll need to dress or touch up, you can do so on the premises of the venue.
-                                        After the ceremony, there will be a cocktail hour between 17:00-19:00. You’ll be
-                                        able to use this time to get to your hotel and back before dinner starts 😊
+                                        Please arrive to the wedding venue <b>first</b> and leave your things in the
+                                        car. If you’ll need to dress or touch up, you can do so on the premises of the
+                                        venue.
+                                        <br />
+                                    </li>
+                                    <li>
+                                        After the ceremony, there will be a cocktail hour between 17:00-19:00. <br />
+                                        You’ll be able to use this time to get to your hotel (only 7 minutes by car) and
+                                        back before dinner starts! 😊
                                     </li>
                                 </ul>
                             </div>
@@ -202,8 +210,9 @@ export default function Home() {
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
                             >
-                                We will provide you with following meals:{' '}
-                                <ul>
+                                We will provide you with following meals: <br />
+                                <br />
+                                <ul className="ml-4 list-disc">
                                     <li>
                                         Saturday: We will provide guests with light lunch and dinner on Saturday in a
                                         form of a buffet.
@@ -226,7 +235,7 @@ export default function Home() {
                         >
                             <div class="flex cursor-pointer items-center justify-between">
                                 <span>
-                                    <b>What should I bring with me?</b>
+                                    <b>What to bring with me?</b>
                                 </span>
                                 <img
                                     src="/images/arrow.png"
@@ -241,27 +250,31 @@ export default function Home() {
                                 Apart from things that you’d normally take with you, make sure you’ll bring:
                                 <br />
                                 <br />
-                                <ul>
+                                <ul className="ml-4 list-disc">
                                     <li>
-                                        - <b>Towels</b> (only if you are accommodated at the wedding venue)
+                                        <b>Towels</b> (only if you are accommodated at the wedding venue)
                                     </li>
                                     <li>
-                                        - <b>Swim suit</b> in case you’ll find the right moment to take a dip in the
-                                        small lake at the venue
+                                        <b>Swim suit</b> in case you’ll find the right moment to take a dip in the small
+                                        lake at the venue
                                     </li>
                                     <li>
-                                        - <b>Some moooves</b> - as our wedding ceremony exit, we opted for this awesome
+                                        <b>Some moooves</b> - as our wedding ceremony exit, we opted for this awesome
                                         dance (see video) from Hitch (Monika’s favorite romantic movie) where everyone
                                         will get the chance to show their moves! If you’re feeling shy, that’s alright,
-                                        you can just stand in the first row and cheer for the dancers 👯 Note: This
-                                        dance is inspired by “soul train line dance” from the 70s. If you’re fishing
-                                        some moves, here is a nice collection.
+                                        you can just stand in the first row and cheer for the dancers 👯 <br />
+                                        Note: This dance is inspired by “soul train line dance” from the 70s. If you’re
+                                        fishing some moves, here is a nice collection.
                                     </li>
                                     <li>
-                                        - Your favorite food and/or drinks to share (optional) - it’s often said “Love
-                                        goes through the stomach”, and so if you have some food or a drink that makes
-                                        you happy, feel free to bring a bit along with you to share. Just let us know in
-                                        advance so we can make the necessary arrangements.
+                                        - <b>Your favorite food and/or drinks to share (optional)</b> - it’s often said
+                                        “Love goes through the stomach”, and so if you have some food or a drink that
+                                        makes you happy, feel free to bring a bit along with you to share. Just let us
+                                        know in advance so we can make the necessary arrangements.
+                                    </li>
+                                    <li>
+                                        Paper or mini-electric fans -It might get really hot next month, so having
+                                        something to cool yourself down could come in really handy.
                                     </li>
                                 </ul>
                             </div>
