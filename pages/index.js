@@ -272,8 +272,8 @@ export default function Home() {
                                         know in advance so we can make the necessary arrangements.
                                     </li>
                                     <li>
-                                        Paper or mini-electric fans - It might get really hot next month, so having
-                                        something to cool yourself down could come in really handy.
+                                        <b>Paper or mini-electric fans </b>- It might get really hot next month, so
+                                        having something to cool yourself down could come in really handy.
                                     </li>
                                 </ul>
                             </div>
