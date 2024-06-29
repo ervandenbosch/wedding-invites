@@ -71,7 +71,8 @@ export default function Home() {
                             <h3 className="mt-6 text-center font-notoreg text-2xl font-bold text-black">When? </h3>
                             <div class="mt-8 px-4 text-center">
                                 {' '}
-                                Arrive to the wedding venue on Saturday between <br /> 12:30 - 14:00 <br />
+                                <b>Saturday 27 July 2024</b>
+                                <br /> Arrive to the wedding venue on Saturday between <br /> 12:30 - 14:00 <br />
                                 (unless asked otherwise).
                                 <br />
                                 <br />
