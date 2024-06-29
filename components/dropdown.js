@@ -17,18 +17,13 @@ export function Dropdown({ closeDropdown }) {
                 <div className="pb-10 pl-10 lg:pl-6">
                     <Link href="#wedding">
                         <button onClick={closeDropdown}>
-                            <>WEDDING</>
+                            <>WEDDING INFO</>
                         </button>
                     </Link>
                 </div>
                 <div className="pb-10 pl-10 lg:pl-6">
                     <Link href="#accomodation">
-                        <button onClick={closeDropdown}> ACCOMODATION</button>
-                    </Link>
-                </div>
-                <div className="pb-10 pl-10 lg:pl-6">
-                    <Link href="#route">
-                        <button onClick={closeDropdown}>ROUTE</button>
+                        <button onClick={closeDropdown}>ACCOMODATION</button>
                     </Link>
                 </div>
                 <div className="pb-10 pl-10 lg:pl-6">
@@ -39,6 +34,11 @@ export function Dropdown({ closeDropdown }) {
                 <div className="pb-10 pl-10 lg:pl-6">
                     <Link href="#gifts">
                         <button onClick={closeDropdown}>GIFTS</button>
+                    </Link>
+                </div>
+                <div className="pb-10 pl-10 lg:pl-6">
+                    <Link href="#faqs">
+                        <button onClick={closeDropdown}>FAQS</button>
                     </Link>
                 </div>
             </div>

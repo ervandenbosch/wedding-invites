@@ -247,7 +247,7 @@ export default function Home() {
                                     your heart.
                                 </div>
                                 <h2
-                                    className="p-5 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
+                                    className="p-5 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
                                     id="faqs"
                                 >
                                     FAQs
