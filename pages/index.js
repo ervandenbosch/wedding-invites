@@ -39,7 +39,7 @@ export default function Home() {
                         className="p-4 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
                         id="wedding"
                     >
-                        Main info
+                        Wedding info
                     </h2>
                     <h3 className="mt-2 text-center font-notoreg text-2xl font-bold text-black">Intro</h3>
                     <div className="p-6 text-justify">
@@ -198,7 +198,7 @@ export default function Home() {
                         <div className="p-6 text-left sm:mx-2">
                             <div class="m-5 space-y-2 sm:mx-2">
                                 <h2
-                                    className="p-4 pt-[24px] text-center font-notoreg text-5xl  font-bold text-blue-900"
+                                    className="p-4 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900"
                                     id="dresscode"
                                 >
                                     Dresscode
@@ -229,7 +229,7 @@ export default function Home() {
                                 </div>
 
                                 <h2
-                                    className="p-2 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
+                                    className="p-2 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
                                     id="gifts"
                                 >
                                     Gifts
@@ -248,7 +248,7 @@ export default function Home() {
                                 </div>
                                 <h2
                                     className="p-5 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
-                                    id="accomodation"
+                                    id="faqs"
                                 >
                                     FAQs
                                 </h2>

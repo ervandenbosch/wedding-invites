@@ -119,7 +119,7 @@ function MyApp({ Component, pageProps }) {
                 <div className="flex flex-row">
                     <div className="font-bold text-slate-800 md:hidden">
                         <Link href={langNL ? '#wedding' : '#wedding'}>
-                            <button onClick={closeDropdown}>WEDDING</button>
+                            <button onClick={closeDropdown}>WEDDING INFO</button>
                         </Link>
                         <span className="px-5">
                             <Link href={langNL ? '#accomodation' : '#accomodation'}>
@@ -137,6 +137,11 @@ function MyApp({ Component, pageProps }) {
                         <span className="px-5">
                             <Link href={langNL ? '#gifts' : '#gifts'}>
                                 <button onClick={closeDropdown}>{langNL ? <>GIFTS</> : <>GIFTS</>}</button>
+                            </Link>
+                        </span>
+                        <span className="px-5">
+                            <Link href={langNL ? '#faqs' : '#faqs'}>
+                                <button onClick={closeDropdown}>{langNL ? <>FAQs</> : <>FAQs</>}</button>
                             </Link>
                         </span>
                     </div>
