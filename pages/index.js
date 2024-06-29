@@ -51,10 +51,10 @@ export default function Home() {
                         together. We can't wait to share this joyous occasion with you.
                     </div>
 
-                    <div class="mt-4 flex justify-center">
+                    <div class="sm:row mt-4 flex justify-center lg2:flex-row sm:flex-col">
                         <div>
-                            <h3 className="mt-4 text-center font-notoreg text-2xl font-bold text-black">Where? </h3>
-                            <div class="ml-24 mt-8">
+                            <h3 className="mt-6 text-center font-notoreg text-2xl font-bold text-black">Where? </h3>
+                            <div class="mt-8 px-8">
                                 {' '}
                                 <b>Ferme du Pignon (grand gîtes)</b> <br />
                                 <br />
@@ -65,7 +65,7 @@ export default function Home() {
                         </div>
 
                         <div>
-                            <h3 className="mt-4 text-center font-notoreg text-2xl font-bold text-black">When? </h3>
+                            <h3 className="mt-6 text-center font-notoreg text-2xl font-bold text-black">When? </h3>
                             <div class="mt-8 px-20 text-center">
                                 {' '}
                                 Arrive to the wedding venue on Saturday between 12:30 - 14:00 <br /> (unless asked
@@ -80,349 +80,354 @@ export default function Home() {
                             ></iframe>
                         </div>
                     </div>
-                    <h2
-                        className="p-5 pt-[72px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
-                        id="accomodation"
-                    >
-                        Accomodation
-                    </h2>
-
-                    <div className="mx-6 p-4 text-center">
-                        Following information is for guests who are staying at the wedding venue or at Logis Hotel
-                        Bellevue.
-                    </div>
-
-                    <div class="m-5 space-y-2 sm:mx-2">
-                        <div
-                            class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                            tabIndex="1"
+                    <div class="px-4">
+                        <h2
+                            className="p-5 pt-[72px] text-center font-notoreg text-5xl  font-bold text-blue-900"
+                            id="accomodation"
                         >
-                            <div class="flex cursor-pointer items-center justify-between">
-                                <span>
-                                    {' '}
-                                    <b>Check-in/out - wedding venue</b>{' '}
-                                </span>{' '}
-                                <img
-                                    src="/images/arrow.png"
-                                    class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                />
-                            </div>
-                            <div
-                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
-                            >
-                                {' '}
-                                <b>Check-in:</b>
-                                <ul className="ml-4 list-disc">
-                                    <li>
-                                        Friday guests: arrive after 5pm.
-                                        <li>Saturday guests: Arrive between 12:30-14:00.</li>
-                                    </li>
-                                    <li>We will show you your room upon arrival. </li>
-                                    <br />
-                                </ul>
-                                <b>Checkout:</b>
-                                <ul className="ml-4 list-disc">
-                                    <li> Sunday at 16:00 </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+                            Accomodation
+                        </h2>
 
-                    <div class="m-5 space-y-2 sm:mx-2">
-                        <div
-                            class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                            tabIndex="1"
-                        >
-                            <div class="flex cursor-pointer items-center justify-between">
-                                <span>
-                                    <b>Check-in/out info - Logis Hotel Bellevue</b>
-                                </span>
-                                <img
-                                    src="/images/arrow.png"
-                                    class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                />
-                            </div>
-                            <div
-                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
-                            >
-                                <ul className="ml-4 list-disc">
-                                    <li>Check in at your hotel is only possible between 17:00-21:00. </li>
-                                    <li>
-                                        Please arrive to the wedding venue <b>first</b> and leave your things in the
-                                        car. <br />
-                                        If you’ll need to dress or touch up, you can do so on the premises of the venue.
-                                    </li>
-                                    <li>
-                                        After the ceremony, there will be a cocktail hour between 17:00-19:00. <br />
-                                        You’ll be able to use this time to get to your hotel (only 7 minutes by car) and
-                                        back before dinner starts! 😊
-                                    </li>
-                                    <br />
-                                    <li>Checkout time at the hotel is until 11:00.</li>
-                                </ul>
-                            </div>
+                        <div className="mx-6 p-4 text-center">
+                            Following information is for guests who are staying at the wedding venue or at Logis Hotel
+                            Bellevue.
                         </div>
-                    </div>
 
-                    <div class="m-5 space-y-2 sm:mx-2">
-                        <div
-                            class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                            tabIndex="1"
-                        >
-                            <div class="flex cursor-pointer items-center justify-between">
-                                <span>
-                                    <b>Parking</b>
-                                </span>
-                                <img
-                                    src="/images/arrow.png"
-                                    class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                />
-                            </div>
-                            <div
-                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
-                            >
-                                Free parking is available both at the wedding venue and the hotel.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="mx-6 p-6 text-left sm:mx-2">
                         <div class="m-5 space-y-2 sm:mx-2">
-                            <h2
-                                className="p-4 pt-[24px] text-center font-notoreg text-5xl  font-bold text-blue-900"
-                                id="dresscode"
+                            <div
+                                class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                tabIndex="1"
                             >
-                                Dresscode
-                            </h2>
-                            <div className="mx-8 p-6 text-center">
-                                <b className=" font-notoreg text-2xl">Attire</b>
-                                <br />
-                                Semi-formal attire
-                                <br />
-                                <br />
-                                <b className="font-notoreg text-2xl">Dress code colour</b>
-                                <br /> Our favourite colour is blue, therefore, we’d love to incorporate it into our
-                                wedding dress code to add little extra touch to our celebration. We invite you to join
-                                us in a vibrant display of colours by incorporating shades of the below displayed
-                                colours into your attire. Whether it's a splash of these hues or a full ensemble, your
-                                creativity is welcomed. <br />
-                                <br />
-                                While we suggest these colours, feel free to choose different shades that resonate with
-                                you, ensuring you feel comfortable and fabulous.{' '}
-                                <img
-                                    src="./images/color.png"
-                                    style={{
-                                        width: '40vw',
-                                        paddingTop: '30px',
-                                        margin: 'auto',
-                                    }}
-                                ></img>
+                                <div class="flex cursor-pointer items-center justify-between">
+                                    <span>
+                                        {' '}
+                                        <b>Check-in/out - wedding venue</b>{' '}
+                                    </span>{' '}
+                                    <img
+                                        src="/images/arrow.png"
+                                        class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                    />
+                                </div>
+                                <div
+                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                  group-focus:max-h-full  group-focus:opacity-100
+                  group-focus:duration-1000"
+                                >
+                                    {' '}
+                                    <b>Check-in:</b>
+                                    <ul className="ml-4 list-disc">
+                                        <li>
+                                            Friday guests: arrive after 5pm.
+                                            <li>Saturday guests: Arrive between 12:30-14:00.</li>
+                                        </li>
+                                        <li>We will show you your room upon arrival. </li>
+                                        <br />
+                                    </ul>
+                                    <b>Checkout:</b>
+                                    <ul className="ml-4 list-disc">
+                                        <li> Sunday at 16:00 </li>
+                                    </ul>
+                                </div>
                             </div>
+                        </div>
 
-                            <h2
-                                className="p-2 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
-                                id="gifts"
+                        <div class="m-5 space-y-2 sm:mx-2">
+                            <div
+                                class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                tabIndex="1"
                             >
-                                Gifts
-                            </h2>
-                            <div className="mx-8 p-6 text-center">
-                                Your presence at our wedding is the greatest gift of all, and we feel blessed to have
-                                you share in our special day. If you wish to celebrate with a gesture, we would be
-                                grateful for a<b> monetary gift.</b> <br />
-                                <br />
-                                Your monetary contributions will go towards a special fund helping us say goodbye to our
-                                trusty, but rather rusty, car and welcome new adventures with a new set of wheels.{' '}
-                                <br />
-                                <br />
-                                Alternatively, we will be grateful for any gift or a an experience that comes from your
-                                heart.
+                                <div class="flex cursor-pointer items-center justify-between">
+                                    <span>
+                                        <b>Check-in/out info - Logis Hotel Bellevue</b>
+                                    </span>
+                                    <img
+                                        src="/images/arrow.png"
+                                        class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                    />
+                                </div>
+                                <div
+                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                  group-focus:max-h-full  group-focus:opacity-100
+                  group-focus:duration-1000"
+                                >
+                                    <ul className="ml-4 list-disc">
+                                        <li>Check in at your hotel is only possible between 17:00-21:00. </li>
+                                        <li>
+                                            Please arrive to the wedding venue <b>first</b> and leave your things in the
+                                            car. <br />
+                                            If you’ll need to dress or touch up, you can do so on the premises of the
+                                            venue.
+                                        </li>
+                                        <li>
+                                            After the ceremony, there will be a cocktail hour between 17:00-19:00.{' '}
+                                            <br />
+                                            You’ll be able to use this time to get to your hotel (only 7 minutes by car)
+                                            and back before dinner starts! 😊
+                                        </li>
+                                        <br />
+                                        <li>Checkout time at the hotel is until 11:00.</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <h2
-                                className="p-5 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
-                                id="accomodation"
+                        </div>
+
+                        <div class="m-5 space-y-2 sm:mx-2">
+                            <div
+                                class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                tabIndex="1"
                             >
-                                FAQs
-                            </h2>
-                            <div class="m-5 space-y-2 sm:mx-2">
+                                <div class="flex cursor-pointer items-center justify-between">
+                                    <span>
+                                        <b>Parking</b>
+                                    </span>
+                                    <img
+                                        src="/images/arrow.png"
+                                        class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                    />
+                                </div>
                                 <div
-                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                    tabIndex="1"
-                                >
-                                    <div class="flex cursor-pointer items-center justify-between">
-                                        <span>
-                                            <b>Which meals are included?</b>
-                                        </span>
-                                        <img
-                                            src="/images/arrow.png"
-                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                        />
-                                    </div>
-                                    <div
-                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                                    class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
-                                    >
-                                        We will provide you with following meals: <br />
-                                        <br />
-                                        <ul className="ml-4 list-disc">
-                                            <li>
-                                                Saturday: We will provide guests with light lunch and dinner on Saturday
-                                                in a form of a buffet.
-                                            </li>
-                                            <li>
-                                                Sunday: Breakfast will be available at the wedding venue around 10am.
-                                                We’ll serve “Pho”, a traditional Vietnamese noodle soup. For those who
-                                                don’t want to eat Pho, there will be also some yoghurts, toast breads &
-                                                hams and cheeses, milk with cereals available too.
-                                            </li>
-                                        </ul>
-                                    </div>
+                                >
+                                    Free parking is available both at the wedding venue and the hotel.
                                 </div>
                             </div>
+                        </div>
 
+                        <div className="p-6 text-left sm:mx-2">
                             <div class="m-5 space-y-2 sm:mx-2">
-                                <div
-                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                    tabIndex="1"
+                                <h2
+                                    className="p-4 pt-[24px] text-center font-notoreg text-5xl  font-bold text-blue-900"
+                                    id="dresscode"
                                 >
-                                    <div class="flex cursor-pointer items-center justify-between">
-                                        <span>
-                                            <b>What to bring with me?</b>
-                                        </span>
-                                        <img
-                                            src="/images/arrow.png"
-                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                        />
-                                    </div>
+                                    Dresscode
+                                </h2>
+                                <div className="p-6 text-center">
+                                    <b className=" font-notoreg text-2xl">Attire</b>
+                                    <br />
+                                    Semi-formal attire
+                                    <br />
+                                    <br />
+                                    <b className="font-notoreg text-2xl">Dress code colour</b>
+                                    <br /> Our favourite colour is blue, therefore, we’d love to incorporate it into our
+                                    wedding dress code to add little extra touch to our celebration. We invite you to
+                                    join us in a vibrant display of colours by incorporating shades of the below
+                                    displayed colours into your attire. Whether it's a splash of these hues or a full
+                                    ensemble, your creativity is welcomed. <br />
+                                    <br />
+                                    While we suggest these colours, feel free to choose different shades that resonate
+                                    with you, ensuring you feel comfortable and fabulous.{' '}
+                                    <img
+                                        src="./images/color.png"
+                                        style={{
+                                            width: '40vw',
+                                            paddingTop: '30px',
+                                            margin: 'auto',
+                                        }}
+                                    ></img>
+                                </div>
+
+                                <h2
+                                    className="p-2 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
+                                    id="gifts"
+                                >
+                                    Gifts
+                                </h2>
+                                <div className="mx-8 p-6 text-center">
+                                    Your presence at our wedding is the greatest gift of all, and we feel blessed to
+                                    have you share in our special day. If you wish to celebrate with a gesture, we would
+                                    be grateful for a<b> monetary gift.</b> <br />
+                                    <br />
+                                    Your monetary contributions will go towards a special fund helping us say goodbye to
+                                    our trusty, but rather rusty, car and welcome new adventures with a new set of
+                                    wheels. <br />
+                                    <br />
+                                    Alternatively, we will be grateful for any gift or a an experience that comes from
+                                    your heart.
+                                </div>
+                                <h2
+                                    className="p-5 pt-[32px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
+                                    id="accomodation"
+                                >
+                                    FAQs
+                                </h2>
+                                <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        tabIndex="1"
+                                    >
+                                        <div class="flex cursor-pointer items-center justify-between">
+                                            <span>
+                                                <b>Which meals are included?</b>
+                                            </span>
+                                            <img
+                                                src="/images/arrow.png"
+                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                            />
+                                        </div>
+                                        <div
+                                            class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
-                                    >
-                                        Apart from things that you’d normally take with you, make sure you’ll bring:
-                                        <br />
-                                        <br />
-                                        <ul className="ml-4 list-disc">
-                                            <li>
-                                                <b>Towels</b> (only if you are accommodated at the wedding venue)
-                                            </li>
-                                            <li>
-                                                <b>Swim suit</b> in case you’ll find the right moment to take a dip in
-                                                the small lake at the venue
-                                            </li>
-                                            <li>
-                                                <b>Some moooves</b> - - for our wedding ceremony exit, we've chosen{' '}
-                                                <a href="https://www.youtube.com/watch?v=inPnVL41N_c">
-                                                    a dance from Hitch
-                                                </a>
-                                                (Monika's favorite romantic movie). Everyone will have the opportunity
-                                                to showcase their dance moves! If you're feeling shy, no worries. You
-                                                can stand in the front row and cheer for the dancers 👯 Note: This dance
-                                                is inspired by the "soul train line dance" of the 70s. If you're looking
-                                                for some dance moves,{' '}
-                                                <a href="https://www.youtube.com/watch?v=sHctA5PK9DE&list=PLZTqAZSvzlVN8BXlq1EiyO6W2vLjTynOR">
-                                                    this great collection
-                                                </a>
-                                                can serve as your inspiration.
-                                            </li>
-                                            <li>
-                                                <b>Your favorite food and/or drinks to share (optional)</b> - it’s often
-                                                said “Love goes through the stomach”, and so if you have some food or a
-                                                drink that makes you happy, feel free to bring a bit along with you to
-                                                share. Just let us know in advance so we can make the necessary
-                                                arrangements.
-                                            </li>
-                                            <li>
-                                                <b>Paper or mini-electric fans </b>- It might get really hot next month,
-                                                so having something to cool yourself down could come in really handy.
-                                            </li>
-                                        </ul>
+                                        >
+                                            We will provide you with following meals: <br />
+                                            <br />
+                                            <ul className="ml-4 list-disc">
+                                                <li>
+                                                    Saturday: We will provide guests with light lunch and dinner on
+                                                    Saturday in a form of a buffet.
+                                                </li>
+                                                <li>
+                                                    Sunday: Breakfast will be available at the wedding venue around
+                                                    10am. We’ll serve “Pho”, a traditional Vietnamese noodle soup. For
+                                                    those who don’t want to eat Pho, there will be also some yoghurts,
+                                                    toast breads & hams and cheeses, milk with cereals available too.
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="m-5 space-y-2 sm:mx-2">
-                                <div
-                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                    tabIndex="1"
-                                >
-                                    <div class="flex cursor-pointer items-center justify-between">
-                                        <span>
-                                            <b>Can I help with something?</b>
-                                        </span>
-                                        <img
-                                            src="/images/arrow.png"
-                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                        />
-                                    </div>
+                                <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        tabIndex="1"
+                                    >
+                                        <div class="flex cursor-pointer items-center justify-between">
+                                            <span>
+                                                <b>What to bring with me?</b>
+                                            </span>
+                                            <img
+                                                src="/images/arrow.png"
+                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                            />
+                                        </div>
+                                        <div
+                                            class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
-                                    >
-                                        Absolutely! We have no staff on our wedding to help us serve food & drinks and
-                                        to clean up. Therefore, we would appreciate if everyone would help us with
-                                        keeping the venue clean. If you’d like to offer a helping hand with some extra
-                                        little things, let us know and we’ll add you to our task force 💪
+                                        >
+                                            Apart from things that you’d normally take with you, make sure you’ll bring:
+                                            <br />
+                                            <br />
+                                            <ul className="ml-4 list-disc">
+                                                <li>
+                                                    <b>Towels</b> (only if you are accommodated at the wedding venue)
+                                                </li>
+                                                <li>
+                                                    <b>Swim suit</b> in case you’ll find the right moment to take a dip
+                                                    in the small lake at the venue
+                                                </li>
+                                                <li>
+                                                    <b>Some moooves</b> - - for our wedding ceremony exit, we've chosen{' '}
+                                                    <a href="https://www.youtube.com/watch?v=inPnVL41N_c">
+                                                        a dance from Hitch
+                                                    </a>
+                                                    (Monika's favorite romantic movie). Everyone will have the
+                                                    opportunity to showcase their dance moves! If you're feeling shy, no
+                                                    worries. You can stand in the front row and cheer for the dancers 👯
+                                                    Note: This dance is inspired by the "soul train line dance" of the
+                                                    70s. If you're looking for some dance moves,{' '}
+                                                    <a href="https://www.youtube.com/watch?v=sHctA5PK9DE&list=PLZTqAZSvzlVN8BXlq1EiyO6W2vLjTynOR">
+                                                        this great collection
+                                                    </a>
+                                                    can serve as your inspiration.
+                                                </li>
+                                                <li>
+                                                    <b>Your favorite food and/or drinks to share (optional)</b> - it’s
+                                                    often said “Love goes through the stomach”, and so if you have some
+                                                    food or a drink that makes you happy, feel free to bring a bit along
+                                                    with you to share. Just let us know in advance so we can make the
+                                                    necessary arrangements.
+                                                </li>
+                                                <li>
+                                                    <b>Paper or mini-electric fans </b>- It might get really hot next
+                                                    month, so having something to cool yourself down could come in
+                                                    really handy.
+                                                </li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="m-5 space-y-2 sm:mx-2">
-                                <div
-                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                    tabIndex="1"
-                                >
-                                    <div class="flex cursor-pointer items-center justify-between">
-                                        <span>
-                                            <b>Can I pitch some ideas for the program?</b>
-                                        </span>
-                                        <img
-                                            src="/images/arrow.png"
-                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                        />
-                                    </div>
+                                <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        tabIndex="1"
+                                    >
+                                        <div class="flex cursor-pointer items-center justify-between">
+                                            <span>
+                                                <b>Can I help with something?</b>
+                                            </span>
+                                            <img
+                                                src="/images/arrow.png"
+                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                            />
+                                        </div>
+                                        <div
+                                            class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
-                                    >
-                                        Yes again! If you have an idea for a fun game or activity feel free to pitch it
-                                        to the new weds. In case you would like it to be a surprise for us, contact our
-                                        wedding coordinator Maude via Whatsapp on +33 6 10 53 42 64. She’ll do her best
-                                        to incorporate into our program 👿
+                                        >
+                                            Absolutely! We have no staff on our wedding to help us serve food & drinks
+                                            and to clean up. Therefore, we would appreciate if everyone would help us
+                                            with keeping the venue clean. If you’d like to offer a helping hand with
+                                            some extra little things, let us know and we’ll add you to our task force 💪
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="m-5 space-y-2 sm:mx-2">
-                                <div
-                                    class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
-                                    tabIndex="1"
-                                >
-                                    <div class="flex cursor-pointer items-center justify-between">
-                                        <span>
-                                            <b>Should I bring cash or can I transfer money to you?</b>
-                                        </span>
-                                        <img
-                                            src="/images/arrow.png"
-                                            class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
-                                        />
-                                    </div>
+                                <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        tabIndex="1"
+                                    >
+                                        <div class="flex cursor-pointer items-center justify-between">
+                                            <span>
+                                                <b>Can I pitch some ideas for the program?</b>
+                                            </span>
+                                            <img
+                                                src="/images/arrow.png"
+                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                            />
+                                        </div>
+                                        <div
+                                            class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
                   group-focus:max-h-full  group-focus:opacity-100
                   group-focus:duration-1000"
+                                        >
+                                            Yes again! If you have an idea for a fun game or activity feel free to pitch
+                                            it to the new weds. In case you would like it to be a surprise for us,
+                                            contact our wedding coordinator Maude via Whatsapp on +33 6 10 53 42 64.
+                                            She’ll do her best to incorporate into our program 👿
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="m-5 space-y-2 sm:mx-2">
+                                    <div
+                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        tabIndex="1"
                                     >
-                                        Both will be possible. There will be a secured card box set aside on the day
-                                        where you can safely deposit your card. For those of you who would like to pay
-                                        by card, there will be a QR code.
+                                        <div class="flex cursor-pointer items-center justify-between">
+                                            <span>
+                                                <b>Should I bring cash or can I transfer money to you?</b>
+                                            </span>
+                                            <img
+                                                src="/images/arrow.png"
+                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                            />
+                                        </div>
+                                        <div
+                                            class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
+                  group-focus:max-h-full  group-focus:opacity-100
+                  group-focus:duration-1000"
+                                        >
+                                            Both will be possible. There will be a secured card box set aside on the day
+                                            where you can safely deposit your card. For those of you who would like to
+                                            pay by card, there will be a QR code.
+                                        </div>
                                     </div>
                                 </div>
                             </div>
