@@ -14,31 +14,38 @@ export function Dropdown({ closeDropdown }) {
             id="Dropdown"
         >
             <div className="mt-6">
-                <div className="pb-10 pl-10 lg:pl-6">
+                <div>
                     <Link href="#wedding">
-                        <button onClick={closeDropdown}>
+                        <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
                             <>WEDDING INFO</>
                         </button>
                     </Link>
                 </div>
-                <div className="pb-10 pl-10 lg:pl-6">
-                    <Link href="#accomodation">
-                        <button onClick={closeDropdown}>ACCOMODATION</button>
-                    </Link>
-                </div>
-                <div className="pb-10 pl-10 lg:pl-6">
+                <Link href="#accomodation">
+                    <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
+                        <div class="w-full">ACCOMODATION</div>
+                    </button>
+                </Link>
+
+                <div>
                     <Link href="#dresscode">
-                        <button onClick={closeDropdown}>DRESSCODE</button>
+                        <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
+                            DRESSCODE
+                        </button>
                     </Link>
                 </div>
-                <div className="pb-10 pl-10 lg:pl-6">
+                <div>
                     <Link href="#gifts">
-                        <button onClick={closeDropdown}>GIFTS</button>
+                        <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
+                            GIFTS
+                        </button>
                     </Link>
                 </div>
-                <div className="pb-10 pl-10 lg:pl-6">
+                <div>
                     <Link href="#faqs">
-                        <button onClick={closeDropdown}>FAQS</button>
+                        <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
+                            FAQS
+                        </button>
                     </Link>
                 </div>
             </div>

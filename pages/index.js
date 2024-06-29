@@ -94,9 +94,9 @@ export default function Home() {
                             Hotel Bellevue.
                         </div>
 
-                        <div class="m-5 mt-8 space-y-2 sm:mx-2">
+                        <div class="mt-8 space-y-2 sm:mx-2">
                             <div
-                                class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 text-black"
+                                class="group flex flex-col rounded-lg border-b-2 bg-white px-4 pb-4 text-black"
                                 tabIndex="1"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
@@ -132,9 +132,9 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div class="m-5 space-y-2 sm:mx-2">
+                        <div class="my-5 space-y-2 sm:mx-2">
                             <div
-                                class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 text-black"
+                                class="group flex flex-col rounded-lg border-b-2 bg-white px-4 pb-4 text-black"
                                 tabIndex="1"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
@@ -172,9 +172,9 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div class="m-5 space-y-2 sm:mx-2">
+                        <div class="my-5 space-y-2 sm:mx-2">
                             <div
-                                class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 text-black"
+                                class="group flex flex-col rounded-lg border-b-2 bg-white px-4 pb-4 text-black"
                                 tabIndex="1"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
@@ -253,12 +253,12 @@ export default function Home() {
                                 >
                                     FAQs
                                 </h2>
-                                <div class="m-5 space-y-2 sm:mx-2">
+                                <div class="space-y-2">
                                     <div
-                                        class="pt-2text-black group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-1 py-4 text-black"
                                         tabIndex="1"
                                     >
-                                        <div class="flex cursor-pointer items-center justify-between">
+                                        <div class="flex cursor-pointer items-center justify-between px-2">
                                             <span>
                                                 <b>Which meals are included?</b>
                                             </span>
@@ -290,12 +290,12 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div class="m-5 space-y-2 sm:mx-2">
+                                <div class="space-y-2 ">
                                     <div
-                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 pt-2 text-black"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-1 py-4 text-black"
                                         tabIndex="1"
                                     >
-                                        <div class="flex cursor-pointer items-center justify-between">
+                                        <div class="flex cursor-pointer items-center justify-between px-2">
                                             <span>
                                                 <b>What to bring with me?</b>
                                             </span>
@@ -354,12 +354,12 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div class="m-5 space-y-2 sm:mx-2">
+                                <div class="space-y-2 ">
                                     <div
-                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 pt-2 text-black"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-1 py-4 text-black"
                                         tabIndex="1"
                                     >
-                                        <div class="flex cursor-pointer items-center justify-between">
+                                        <div class="flex cursor-pointer items-center justify-between px-2">
                                             <span>
                                                 <b>Can I help with something?</b>
                                             </span>
@@ -381,12 +381,12 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div class="m-5 space-y-2 sm:mx-2">
+                                <div class="pace-y-2 ">
                                     <div
-                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 pt-2 text-black"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-1 py-4 text-black"
                                         tabIndex="1"
                                     >
-                                        <div class="flex cursor-pointer items-center justify-between">
+                                        <div class="flex cursor-pointer items-center justify-between px-2">
                                             <span>
                                                 <b>Can I pitch some ideas for the program?</b>
                                             </span>
@@ -408,12 +408,12 @@ export default function Home() {
                                     </div>
                                 </div>
 
-                                <div class="m-5 space-y-2 sm:mx-2">
+                                <div class="space-y-2 ">
                                     <div
-                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 pt-2 text-black"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-1 py-4 text-black"
                                         tabIndex="1"
                                     >
-                                        <div class="flex cursor-pointer items-center justify-between">
+                                        <div class="flex cursor-pointer items-center justify-between px-2">
                                             <span>
                                                 <b>Should I bring cash or can I transfer money to you?</b>
                                             </span>
