@@ -52,32 +52,32 @@ export default function Home() {
                     </div>
 
                     <div class="sm:row mt-4 flex justify-center lg2:flex-row sm:flex-col">
-                        <div>
-                            <h3 className="mt-6 text-center font-notoreg text-2xl font-bold text-black">Where? </h3>
-                            <div class="mt-8 px-8">
+                        <div class="lg2:mr-8">
+                            <h3 className="mt-6 text-center font-notoreg text-2xl font-bold text-black ">Where? </h3>
+                            <div class="mt-8 text-center">
                                 {' '}
                                 <b>Ferme du Pignon (grand gîtes)</b> <br />
                                 <br />
                                 Frm du Pignon, <br />
                                 02380 Verneuil-sous-Coucy, France
-                                <img src="/images/venue.png" class="m-auto mt-6 h-48 rounded-2xl" />
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2588.736671015879!2d3.3168240000000004!3d49.546121899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8439f1f81cc9b%3A0xaccf631307b93ded!2sFerme%20du%20Pignon%20(grand%20g%C3%AEtes)!5e0!3m2!1sen!2snl!4v1703600234549!5m2!1sen!2snl"
+                                    style={{ margin: 'auto', marginTop: '32px', maxWidth: '100%' }}
+                                ></iframe>
                             </div>
                         </div>
 
-                        <div>
+                        <div class="lg2:ml-8 sm:px-12">
                             <h3 className="mt-6 text-center font-notoreg text-2xl font-bold text-black">When? </h3>
-                            <div class="px-22 mt-8 text-center">
+                            <div class="mt-8 px-4 text-center">
                                 {' '}
-                                Arrive to the wedding venue on Saturday between 12:30 - 14:00 <br /> (unless asked
-                                otherwise).
+                                Arrive to the wedding venue on Saturday between <br /> 12:30 - 14:00 <br />
+                                (unless asked otherwise).
                                 <br />
                                 <br />
                                 The ceremony will start at 15:00.
                             </div>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2588.736671015879!2d3.3168240000000004!3d49.546121899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8439f1f81cc9b%3A0xaccf631307b93ded!2sFerme%20du%20Pignon%20(grand%20g%C3%AEtes)!5e0!3m2!1sen!2snl!4v1703600234549!5m2!1sen!2snl"
-                                style={{ margin: 'auto', marginTop: '24px', maxWidth: '90%' }}
-                            ></iframe>
+                            <img src="/images/venue.png" class="m-auto mt-6 h-48 rounded-2xl" />
                         </div>
                     </div>
                     <div class="px-4">
