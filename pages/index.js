@@ -314,38 +314,40 @@ export default function Home() {
                                             <br />
                                             <ul className="ml-4 list-disc">
                                                 <li>
-                                                    <b>Towels</b> (only if you are accommodated at the wedding venue)
+                                                    <b>Towels</b>
                                                 </li>
                                                 <li>
-                                                    <b>Swim suit</b> in case you’ll find the right moment to take a dip
-                                                    in the small lake at the venue
+                                                    <b>Swim suit:</b> if you want to take a swim!
                                                 </li>
                                                 <li>
-                                                    <b>Some moooves</b> - for our wedding ceremony exit, we've chosen{' '}
-                                                    <a href="https://www.youtube.com/watch?v=inPnVL41N_c">
+                                                    <b>Paper or mini-electric fans: </b> It might get hot.
+                                                </li>
+                                                <li>
+                                                    <b>Some moooves:</b> for our wedding ceremony exit, we've chosen{' '}
+                                                    <a
+                                                        class="underline"
+                                                        href="https://www.youtube.com/watch?v=inPnVL41N_c"
+                                                    >
                                                         a dance from Hitch
                                                     </a>
-                                                    (Monika's favorite romantic movie). Everyone will have the
-                                                    opportunity to showcase their dance moves! If you're feeling shy, no
-                                                    worries. You can stand in the front row and cheer for the dancers 👯
-                                                    Note: This dance is inspired by the "soul train line dance" of the
-                                                    70s. If you're looking for some dance moves,{' '}
-                                                    <a href="https://www.youtube.com/watch?v=sHctA5PK9DE&list=PLZTqAZSvzlVN8BXlq1EiyO6W2vLjTynOR">
+                                                    . Everyone will have the opportunity to showcase their dance moves!
+                                                    If you're feeling shy, no worries. You can stand in the front row
+                                                    and cheer for the dancers 👯 If you're looking for some inspiration
+                                                    for your dance moves, check out{' '}
+                                                    <a
+                                                        class="underline"
+                                                        href="https://www.youtube.com/watch?v=sHctA5PK9DE&list=PLZTqAZSvzlVN8BXlq1EiyO6W2vLjTynOR"
+                                                    >
                                                         this great collection
-                                                    </a>
-                                                    can serve as your inspiration.
+                                                    </a>{' '}
+                                                    from the original soul-train dance. can serve as your inspiration.
                                                 </li>
                                                 <li>
-                                                    <b>Your favorite food and/or drinks to share (optional)</b> - it’s
+                                                    <b>Your favorite food and/or drinks to share (optional):</b> it’s
                                                     often said “Love goes through the stomach”, and so if you have some
                                                     food or a drink that makes you happy, feel free to bring a bit along
                                                     with you to share. Just let us know in advance so we can make the
                                                     necessary arrangements.
-                                                </li>
-                                                <li>
-                                                    <b>Paper or mini-electric fans </b>- It might get really hot next
-                                                    month, so having something to cool yourself down could come in
-                                                    really handy.
                                                 </li>
                                             </ul>
                                         </div>
