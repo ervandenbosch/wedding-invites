@@ -42,7 +42,7 @@ export default function Home() {
                         Main info
                     </h2>
                     <h3 className="mt-2 text-center font-notoreg text-2xl font-bold text-black">Intro</h3>
-                    <div className="p-6 text-center">
+                    <div className="p-6 text-justify">
                         Welcome to our wedding celebration! This moment is not just about us, uniting as a couple, but
                         also a heartfelt tribute to the incredible friends and family who've shaped us into the
                         individuals we are today.
@@ -66,7 +66,7 @@ export default function Home() {
 
                         <div>
                             <h3 className="mt-6 text-center font-notoreg text-2xl font-bold text-black">When? </h3>
-                            <div class="mt-8 px-20 text-center">
+                            <div class="px-22 mt-8 text-center">
                                 {' '}
                                 Arrive to the wedding venue on Saturday between 12:30 - 14:00 <br /> (unless asked
                                 otherwise).
@@ -88,24 +88,24 @@ export default function Home() {
                             Accomodation
                         </h2>
 
-                        <div className="mx-6 p-4 text-center">
-                            Following information is for guests who are staying at the wedding venue or at Logis Hotel
-                            Bellevue.
+                        <div className="mx-6 p-4 text-justify">
+                            The following information is for guests who are staying at the wedding venue or at Logis
+                            Hotel Bellevue.
                         </div>
 
                         <div class="m-5 space-y-2 sm:mx-2">
                             <div
-                                class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 text-black"
                                 tabIndex="1"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
                                     <span>
                                         {' '}
-                                        <b>Check-in/out - wedding venue</b>{' '}
+                                        <b>Check-in/out info - Wedding venue</b>{' '}
                                     </span>{' '}
                                     <img
-                                        src="/images/arrow.png"
-                                        class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                        src="/images/arrow2.png"
+                                        class="h-8 w-8 text-black transition-all duration-500 group-focus:-rotate-180"
                                     />
                                 </div>
                                 <div
@@ -133,7 +133,7 @@ export default function Home() {
 
                         <div class="m-5 space-y-2 sm:mx-2">
                             <div
-                                class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 text-black"
                                 tabIndex="1"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
@@ -141,8 +141,8 @@ export default function Home() {
                                         <b>Check-in/out info - Logis Hotel Bellevue</b>
                                     </span>
                                     <img
-                                        src="/images/arrow.png"
-                                        class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                        src="/images/arrow2.png"
+                                        class="h-8 w-8 text-black transition-all duration-500 group-focus:-rotate-180"
                                     />
                                 </div>
                                 <div
@@ -173,7 +173,7 @@ export default function Home() {
 
                         <div class="m-5 space-y-2 sm:mx-2">
                             <div
-                                class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 text-black"
                                 tabIndex="1"
                             >
                                 <div class="flex cursor-pointer items-center justify-between">
@@ -181,8 +181,8 @@ export default function Home() {
                                         <b>Parking</b>
                                     </span>
                                     <img
-                                        src="/images/arrow.png"
-                                        class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                        src="/images/arrow2.png"
+                                        class="h-8 w-8 text-black transition-all duration-500 group-focus:-rotate-180"
                                     />
                                 </div>
                                 <div
@@ -203,13 +203,13 @@ export default function Home() {
                                 >
                                     Dresscode
                                 </h2>
-                                <div className="p-6 text-center">
-                                    <b className=" font-notoreg text-2xl">Attire</b>
+                                <div className="p-6 text-justify">
+                                    <b className="mb-6 font-notoreg text-2xl">Attire</b>
                                     <br />
                                     Semi-formal attire
                                     <br />
                                     <br />
-                                    <b className="font-notoreg text-2xl">Dress code colour</b>
+                                    <b className="mb-12 font-notoreg text-2xl">Dress code colour</b>
                                     <br /> Our favourite colour is blue, therefore, we’d love to incorporate it into our
                                     wedding dress code to add little extra touch to our celebration. We invite you to
                                     join us in a vibrant display of colours by incorporating shades of the below
@@ -234,7 +234,7 @@ export default function Home() {
                                 >
                                     Gifts
                                 </h2>
-                                <div className="mx-8 p-6 text-center">
+                                <div className="mx-8 p-6 text-justify">
                                     Your presence at our wedding is the greatest gift of all, and we feel blessed to
                                     have you share in our special day. If you wish to celebrate with a gesture, we would
                                     be grateful for a<b> monetary gift.</b> <br />
@@ -254,7 +254,7 @@ export default function Home() {
                                 </h2>
                                 <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        class="pt-2text-black group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4"
                                         tabIndex="1"
                                     >
                                         <div class="flex cursor-pointer items-center justify-between">
@@ -262,8 +262,8 @@ export default function Home() {
                                                 <b>Which meals are included?</b>
                                             </span>
                                             <img
-                                                src="/images/arrow.png"
-                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                                src="/images/arrow2.png"
+                                                class="h-8 w-8 text-black transition-all duration-500 group-focus:-rotate-180"
                                             />
                                         </div>
                                         <div
@@ -291,7 +291,7 @@ export default function Home() {
 
                                 <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 pt-2 text-black"
                                         tabIndex="1"
                                     >
                                         <div class="flex cursor-pointer items-center justify-between">
@@ -299,8 +299,8 @@ export default function Home() {
                                                 <b>What to bring with me?</b>
                                             </span>
                                             <img
-                                                src="/images/arrow.png"
-                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                                src="/images/arrow2.png"
+                                                class="h-8 w-8 text-black transition-all duration-500 group-focus:-rotate-180"
                                             />
                                         </div>
                                         <div
@@ -320,7 +320,7 @@ export default function Home() {
                                                     in the small lake at the venue
                                                 </li>
                                                 <li>
-                                                    <b>Some moooves</b> - - for our wedding ceremony exit, we've chosen{' '}
+                                                    <b>Some moooves</b> - for our wedding ceremony exit, we've chosen{' '}
                                                     <a href="https://www.youtube.com/watch?v=inPnVL41N_c">
                                                         a dance from Hitch
                                                     </a>
@@ -353,7 +353,7 @@ export default function Home() {
 
                                 <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 pt-2 text-black"
                                         tabIndex="1"
                                     >
                                         <div class="flex cursor-pointer items-center justify-between">
@@ -361,8 +361,8 @@ export default function Home() {
                                                 <b>Can I help with something?</b>
                                             </span>
                                             <img
-                                                src="/images/arrow.png"
-                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                                src="/images/arrow2.png"
+                                                class="h-8 w-8 text-black transition-all duration-500 group-focus:-rotate-180"
                                             />
                                         </div>
                                         <div
@@ -380,7 +380,7 @@ export default function Home() {
 
                                 <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 pt-2 text-black"
                                         tabIndex="1"
                                     >
                                         <div class="flex cursor-pointer items-center justify-between">
@@ -388,8 +388,8 @@ export default function Home() {
                                                 <b>Can I pitch some ideas for the program?</b>
                                             </span>
                                             <img
-                                                src="/images/arrow.png"
-                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                                src="/images/arrow2.png"
+                                                class="h-8 w-8 text-black transition-all duration-500 group-focus:-rotate-180"
                                             />
                                         </div>
                                         <div
@@ -407,7 +407,7 @@ export default function Home() {
 
                                 <div class="m-5 space-y-2 sm:mx-2">
                                     <div
-                                        class="group flex flex-col gap-2 rounded-lg border-2 bg-white px-5 py-2 text-black"
+                                        class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 pt-2 text-black"
                                         tabIndex="1"
                                     >
                                         <div class="flex cursor-pointer items-center justify-between">
@@ -415,8 +415,8 @@ export default function Home() {
                                                 <b>Should I bring cash or can I transfer money to you?</b>
                                             </span>
                                             <img
-                                                src="/images/arrow.png"
-                                                class="h-10 w-10 text-black transition-all duration-500 group-focus:-rotate-180"
+                                                src="/images/arrow2.png"
+                                                class="h-8 w-8 text-black transition-all duration-500 group-focus:-rotate-180"
                                             />
                                         </div>
                                         <div
