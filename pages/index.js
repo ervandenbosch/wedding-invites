@@ -34,7 +34,7 @@ export default function Home() {
                 </div>
             </div>
             <div className="flex flex-row bg-white pb-10  md:flex-wrap">
-                <div className="flex w-full flex-col border-black bg-white pb-10 lg2:mx-48">
+                <div className="flex w-full flex-col border-black bg-white pb-10 lg2:mx-48 sm:mx-2">
                     <h2
                         className="p-4 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900  "
                         id="wedding"
@@ -89,12 +89,12 @@ export default function Home() {
                             Accomodation
                         </h2>
 
-                        <div className="mx-6 p-4 text-justify">
+                        <div className=" m-2 text-justify">
                             The following information is for guests who are staying at the wedding venue or at Logis
                             Hotel Bellevue.
                         </div>
 
-                        <div class="m-5 space-y-2 sm:mx-2">
+                        <div class="m-5 mt-8 space-y-2 sm:mx-2">
                             <div
                                 class="group flex flex-col rounded-lg border-b-2 bg-white px-5 pb-4 text-black"
                                 tabIndex="1"
@@ -196,15 +196,15 @@ export default function Home() {
                             </div>
                         </div>
 
-                        <div className="p-6 text-left sm:mx-2">
-                            <div class="m-5 space-y-2 sm:mx-2">
+                        <div className="">
+                            <div class="m-5 sm:mx-2">
                                 <h2
-                                    className="p-4 pt-[64px] text-center font-notoreg text-5xl  font-bold text-blue-900"
+                                    className="py-4 pt-[64px] text-center font-notoreg text-5xl font-bold text-blue-900"
                                     id="dresscode"
                                 >
                                     Dresscode
                                 </h2>
-                                <div className="p-6 text-justify">
+                                <div className="text-justify">
                                     <b className="mb-6 font-notoreg text-2xl">Attire</b>
                                     <br />
                                     Semi-formal attire
@@ -235,7 +235,7 @@ export default function Home() {
                                 >
                                     Gifts
                                 </h2>
-                                <div className="mx-8 p-6 text-justify">
+                                <div className="text-justify">
                                     Your presence at our wedding is the greatest gift of all, and we feel blessed to
                                     have you share in our special day. If you wish to celebrate with a gesture, we would
                                     be grateful for a<b> monetary gift.</b> <br />
