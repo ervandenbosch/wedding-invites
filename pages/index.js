@@ -336,7 +336,7 @@ export default function Home() {
                                                     for your dance moves, check out{' '}
                                                     <a
                                                         class="underline"
-                                                        href="https://www.youtube.com/watch?v=sHctA5PK9DE&list=PLZTqAZSvzlVN8BXlq1EiyO6W2vLjTynOR"
+                                                        href="https://www.youtube.com/watch?v=sHctA5PK9DE&list=PLZTqAZSvzlVN8BXlq1EiyO6W2vLjTynOR&ab_channel=steve3"
                                                     >
                                                         this great collection
                                                     </a>{' '}
