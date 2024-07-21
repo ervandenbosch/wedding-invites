@@ -271,9 +271,9 @@ export default function Home() {
                                                 />
                                             </div>
                                             <div
-                                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
+                                                class="invisible h-auto max-h-0 items-center px-2 text-left opacity-0 transition-all group-focus:visible 
+                  group-focus:my-3  group-focus:max-h-full
+                  group-focus:opacity-100 group-focus:duration-1000"
                                             >
                                                 We will provide you with following meals: <br />
                                                 <br />
@@ -309,9 +309,9 @@ export default function Home() {
                                                 />
                                             </div>
                                             <div
-                                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
+                                                class="invisible h-auto max-h-0 items-center px-2 text-left opacity-0 transition-all group-focus:visible 
+                  group-focus:my-3  group-focus:max-h-full
+                  group-focus:opacity-100 group-focus:duration-1000"
                                             >
                                                 Apart from things that you’d normally take with you, make sure you’ll
                                                 bring:
@@ -375,9 +375,9 @@ export default function Home() {
                                                 />
                                             </div>
                                             <div
-                                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
+                                                class="invisible h-auto max-h-0 items-center px-2 text-left opacity-0 transition-all group-focus:visible 
+                  group-focus:my-3  group-focus:max-h-full
+                  group-focus:opacity-100 group-focus:duration-1000"
                                             >
                                                 Absolutely! We have no staff on our wedding to help us serve food &
                                                 drinks and to clean up. Therefore, we would appreciate if everyone would
@@ -403,9 +403,9 @@ export default function Home() {
                                                 />
                                             </div>
                                             <div
-                                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
+                                                class="invisible h-auto max-h-0 items-center px-2 text-left opacity-0 transition-all group-focus:visible 
+                  group-focus:my-3  group-focus:max-h-full
+                  group-focus:opacity-100 group-focus:duration-1000"
                                             >
                                                 Yes again! If you have an idea for a fun game or activity feel free to
                                                 pitch it to the new weds. In case you would like it to be a surprise for
@@ -430,13 +430,27 @@ export default function Home() {
                                                 />
                                             </div>
                                             <div
-                                                class="invisible h-auto max-h-0 items-center text-left opacity-0 transition-all group-focus:visible group-focus:my-3 
-                  group-focus:max-h-full  group-focus:opacity-100
-                  group-focus:duration-1000"
+                                                class="invisible h-auto max-h-0 items-center px-2 text-left opacity-0 transition-all 
+                  group-focus:visible  group-focus:my-3
+                  group-focus:max-h-full group-focus:opacity-100 group-focus:duration-1000"
                                             >
-                                                Both will be possible. There will be a secured card box set aside on the
-                                                day where you can safely deposit your card. For those of you who would
-                                                like to pay by card, there will be a QR code.
+                                                Both are possible. There will be a secured card box set aside on the day
+                                                where you can safely deposit a card with your monetary gift.
+                                                <br /> <br />
+                                                If you prefer to pay electronically instead of cash, there will be a QR
+                                                code available with digital payment options at the wedding.
+                                                Additionally, you can visit{' '}
+                                                <a
+                                                    a
+                                                    class="underline"
+                                                    href="https://www.notion.so/Payment-Options-for-our-Next-Adventure-Car-Fund-402151f74bec41a1b496d2b20f150366?pvs=21"
+                                                >
+                                                    this link
+                                                </a>{' '}
+                                                to see the payment options and make a payment in advance if you prefer.
+                                                <br />
+                                                <br />
+                                                Thank you for your generosity and support.
                                             </div>
                                         </div>
                                     </div>
