@@ -15,34 +15,39 @@ export function Dropdown({ closeDropdown }) {
         >
             <div className="mt-6">
                 <div>
-                    <Link href="#wedding">
+                    <Link href="../#program">
+                        <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
+                            <>PROGRAM</>
+                        </button>
+                    </Link>
+                    <Link href="../#wedding">
                         <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
                             <>WEDDING INFO</>
                         </button>
                     </Link>
                 </div>
-                <Link href="#accomodation">
+                <Link href="../#accomodation">
                     <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
                         <div class="w-full">ACCOMODATION</div>
                     </button>
                 </Link>
 
                 <div>
-                    <Link href="#dresscode">
+                    <Link href="../#dresscode">
                         <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
                             DRESSCODE
                         </button>
                     </Link>
                 </div>
                 <div>
-                    <Link href="#gifts">
+                    <Link href="../#gifts">
                         <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
                             GIFTS
                         </button>
                     </Link>
                 </div>
                 <div>
-                    <Link href="#faqs">
+                    <Link href="../#faqs">
                         <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
                             FAQS
                         </button>

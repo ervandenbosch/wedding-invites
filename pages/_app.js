@@ -118,11 +118,18 @@ function MyApp({ Component, pageProps }) {
                 </div>
                 <div className="flex flex-row">
                     <div className="font-bold text-slate-800 md:hidden">
-                        <Link href={langNL ? '#wedding' : '#wedding'}>
-                            <button onClick={closeDropdown}>WEDDING INFO</button>
-                        </Link>
                         <span className="px-5">
-                            <Link href={langNL ? '#accomodation' : '#accomodation'}>
+                            <Link href={langNL ? '../program' : '../program'}>
+                                <button onClick={closeDropdown}>PROGRAM</button>
+                            </Link>
+                        </span>
+                        <span className="px-5">
+                            <Link href={langNL ? '../#wedding' : '../#wedding'}>
+                                <button onClick={closeDropdown}>WEDDING INFO</button>
+                            </Link>
+                        </span>
+                        <span className="px-5">
+                            <Link href={langNL ? '#accomodation' : '../#accomodation'}>
                                 <button onClick={closeDropdown}>
                                     {langNL ? <>ACCOMODATION</> : <>ACCOMODATION</>}
                                 </button>
@@ -130,17 +137,17 @@ function MyApp({ Component, pageProps }) {
                         </span>
 
                         <span className="px-5">
-                            <Link href="#dresscode">
+                            <Link href="../#dresscode">
                                 <button onClick={closeDropdown}>DRESS CODE</button>
                             </Link>
                         </span>
                         <span className="px-5">
-                            <Link href={langNL ? '#gifts' : '#gifts'}>
+                            <Link href={langNL ? '../#gifts' : '../#gifts'}>
                                 <button onClick={closeDropdown}>{langNL ? <>GIFTS</> : <>GIFTS</>}</button>
                             </Link>
                         </span>
                         <span className="px-5">
-                            <Link href={langNL ? '#faqs' : '#faqs'}>
+                            <Link href={langNL ? '../#faqs' : '../#faqs'}>
                                 <button onClick={closeDropdown}>{langNL ? <>FAQs</> : <>FAQs</>}</button>
                             </Link>
                         </span>
