@@ -15,7 +15,7 @@ export function Dropdown({ closeDropdown }) {
         >
             <div className="mt-6">
                 <div>
-                    <Link href="../#program">
+                    <Link href="../program">
                         <button className="w-full pb-10 pl-10 text-left lg:pl-6" onClick={closeDropdown}>
                             <>PROGRAM</>
                         </button>
